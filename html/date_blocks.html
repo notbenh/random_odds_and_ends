@@ -1,0 +1,94 @@
+<html>
+<head>
+   <!--
+   <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js' type='text/javascript'></script> 
+   <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js' type='text/javascript'></script> 
+   <script src='pixastic.custom.js' type='text/javascript'></script> 
+   -->
+   <script src='jquery.min.js' type='text/javascript'></script> 
+   <script src='jquery-ui.min.js' type='text/javascript'></script> 
+   <script type='text/javascript'>
+
+      /* zero pad single digit strings */
+      function Z (n) { n = (n<10) ? '0'+n : ''+n; return n.split('') };
+
+      function Go(type,vals) {
+         for (var i in vals) {
+            var me = '#' + type + i;
+            //$('#' + type + i).css('margin-top', -Math.round(vals[i] * $('#' + type + i +' p').height()) + 'px');
+            //$(me).css('margin-top', -(vals[i] * $(me +' p').height()) + 'px');
+            $(me).animate({'margin-top': -(vals[i] * $(me +' p').height()) + 'px'}, 200);
+         }
+      }
+
+      function NOW () {
+         var D = new Date();
+         Go('hour',   Z(D.getHours())   );
+         Go('minute', Z(D.getMinutes()) );
+         Go('second', Z(D.getSeconds()) );
+      };
+      
+      $(document).ready(function() {
+         //window.setInterval(NOW,300);
+         $('#center').position({my: 'center center', at: 'center center', of: $(document)}
+      });
+   </script> 
+
+   <link rel="stylesheet" href="blueprint/screen.css" type="text/css" media="screen, projection">
+   <link rel="stylesheet" href="blueprint/print.css" type="text/css" media="print">
+   <!--[if lt IE 8]>
+     <link rel="stylesheet" href="blueprint/ie.css" type="text/css" media="screen, projection">
+   <![endif]-->
+
+   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+   <style>
+      body { 
+         padding: 0px;
+         font-family: 'Lobster', arial, serif; 
+         font-size: 48px;
+         color: #FFF;
+         background-color: #E6E6E6;
+         overflow: hidden;
+      }
+      div#center {
+         background-color: #F00;
+         border:1px solid #000;
+         height:1px;
+         overflow: visible;
+      }
+/*
+         margin-top:5em;
+      div#center div {
+         overflow: hidden;
+         height: 100px;
+         width: 100px;
+         border:1px solid #000;
+         margin-left: 50%;
+         margin-right: -50px;
+      }
+      div#time div, div#date div {
+         float: left;
+         background-color: #FF0;
+      }
+*/
+   </style>
+</head>
+<body>
+   <div id='center'>
+      <div id='time'>
+         <div id='hour'></div>
+         <div id='minute'></div>
+         <div id='second'></div>
+      </div>
+      <div id='date'>
+         <div id='month'></div>
+         <div id='day'></div>
+         <div id='year'></div>
+      </div>
+   </div>
+</body>
+</html>
+
+
+
+
