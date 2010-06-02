@@ -8,7 +8,6 @@
    <script src='jquery.min.js' type='text/javascript'></script> 
    <script src='jquery-ui.min.js' type='text/javascript'></script> 
    <script type='text/javascript'>
-
       /* zero pad single digit strings */
       function Z (n) { n = (n<10) ? '0'+n : ''+n; return n.split('') };
 
@@ -26,69 +25,62 @@
          Go('hour',   Z(D.getHours())   );
          Go('minute', Z(D.getMinutes()) );
          Go('second', Z(D.getSeconds()) );
-      };
-      
+      }
+
       $(document).ready(function() {
-         //window.setInterval(NOW,300);
-         $('#center').position({my: 'center center', at: 'center center', of: $(document)}
+         var viewportHeight = window.innerHeight ? window.innerHeight : $(window).height();
+         var vph = viewportHeight / 2;
+         $('div#center').css('top', vph - ( $('div#view_port_center').height() /2) );
+
+         //$('body').css('font-size', vph );
+         $('div#time').css('margin-top', -vph ); 
       });
-   </script> 
 
-   <link rel="stylesheet" href="blueprint/screen.css" type="text/css" media="screen, projection">
-   <link rel="stylesheet" href="blueprint/print.css" type="text/css" media="print">
-   <!--[if lt IE 8]>
-     <link rel="stylesheet" href="blueprint/ie.css" type="text/css" media="screen, projection">
-   <![endif]-->
-
+      
+   </script>
    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
    <style>
       body { 
-         padding: 0px;
          font-family: 'Lobster', arial, serif; 
          font-size: 48px;
          color: #FFF;
-         background-color: #E6E6E6;
-         overflow: hidden;
+         background-color: #400000;
+      }
+      div {
+         position: relative;
       }
       div#center {
-         background-color: #F00;
-         border:1px solid #000;
-         height:1px;
-         overflow: visible;
-      }
-/*
-         margin-top:5em;
-      div#center div {
-         overflow: hidden;
-         height: 100px;
-         width: 100px;
-         border:1px solid #000;
+         height: 1px;
          margin-left: 50%;
-         margin-right: -50px;
+         margin-right: 50%;
+         border: 1px solid #FFF;
+         overflow; visible;
       }
-      div#time div, div#date div {
+      div.float {
+         width: 300px;
+         margin-left: -150px;
+         clear: both;
+      }
+      div.float div {
+         width: 100px;
+         height: 100px;
          float: left;
-         background-color: #FF0;
+         overflow: hidden;
       }
-*/
    </style>
 </head>
 <body>
    <div id='center'>
-      <div id='time'>
-         <div id='hour'></div>
-         <div id='minute'></div>
-         <div id='second'></div>
+      <div id='time' class='float'>
+         <div id='hour'>00</div>
+         <div id='minute'>00</div>
+         <div id='second'>00</div>
       </div>
-      <div id='date'>
-         <div id='month'></div>
-         <div id='day'></div>
-         <div id='year'></div>
+      <div id='date' class='float'>
+         <div id='month'>00</div>
+         <div id='day'>00</div>
+         <div id='year'>00</div>
       </div>
    </div>
 </body>
 </html>
-
-
-
-
