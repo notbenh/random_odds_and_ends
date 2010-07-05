@@ -1,0 +1,15 @@
+#!/bin/sh
+
+mod=$1
+
+if test "x$mod" = "x"; then
+    echo "Usage: $0 <module>"
+    exit
+fi
+
+if test "x$PERL" = "x"; then
+    PERL=perl
+fi
+
+$PERL -M$mod -e "print \"$mod: \$$mod::VERSION\n\""
+

@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use YAML qw{LoadFile};
+use Data::Dumper;
+
+for (@ARGV) {
+   printf qq{[%s]\n}, $_;
+   print Dumper( LoadFile( $_) ) ;
+}

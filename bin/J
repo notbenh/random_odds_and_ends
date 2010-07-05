@@ -1,0 +1,13 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use Util::Log;
+use JSON;
+use File::Slurp;
+use Data::Dumper;
+
+
+for ((scalar @ARGV) ? @ARGV : <STDIN> ) {
+   printf qq{[%s]\n}, $_;
+   print Dumper( from_json( (-r $_) ? read_file( $_ ) : $_ ) ) ;
+}

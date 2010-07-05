@@ -1,0 +1,5 @@
+#!/usr/bin/perl
+while( system($ARGV[0]) ) {
+   print "waiting\n";
+   sleep 1;
+}
