@@ -1,0 +1,65 @@
+#!/usr/bin/perl 
+use strict;
+use warnings;
+
+my ($module, $author, $email) = @ARGV;
+
+die 'Must specify a module name' unless defined $module;
+
+$author = $ENV{PERL_AUTHOR_NAME} unless defined $author;
+die 'Must specify an author name' unless defined $author;
+
+$email = $ENV{PERL_EMAIL_NAME} unless defined $email;
+die 'Must specify an email name' unless defined $email;
+
+$|++; # spool to STDOUT freely
+
+sub L (@) { print @_ , qq{\n} };
+
+system( sprintf q{module-starter --module="%s" --mb --author="%s" --email="%s"}, $module, $author, $email );
+my $dir = $module;
+$dir =~ s/::/-/g;
+warn $dir;
+if ( -d $dir ) {
+   chdir $dir;
+   system( sprintf q{git init && echo '#ignore' >> .gitignore && git add .gitignore && git add * && git ci -m 'you have to start somewhere'} );
+   system( sprintf q{dzil setup} );
+   system( sprintf q{fennec_init && fennec_scaffold.pl && git add * && git ci -m 'fennec scaffold, kick start'} );
+}
+
+__END__
+=pod
+
+Usage:
+    module-starter [options]
+
+    Options:
+
+        --module=module  Module name (required, repeatable)
+        --distro=name    Distribution name (optional)
+        --dir=dirname    Directory name to create new module in (optional)
+
+        --builder=module Build with 'ExtUtils::MakeMaker' or 'Module::Build'
+        --eumm           Same as --builder=ExtUtils::MakeMaker
+        --mb             Same as --builder=Module::Build
+        --mi             Same as --builder=Module::Install
+
+        --author=name    Author's name (required)
+        --email=email    Author's email (required)
+        --license=type   License under which the module will be distributed
+                         (default is the same license as perl)
+
+        --verbose        Print progress messages while working
+        --force          Delete pre-existing files if needed
+
+        --help           Show this message
+
+    Available Licenses: perl, bsd, gpl, lgpl, mit
+
+    Example:
+
+        module-starter --module=Foo::Bar,Foo::Bat \
+            --author="Andy Lester" --email=andy@petdance.com
+
+=cut
+
