@@ -237,11 +237,6 @@ object) passed to that external method.
 #  SET INFO STUFF
 #---------------------------------------------------------------------------
 our $info_methods = {
-   exclude_stores     => \&exclude_stores,
-   ge_ok              => \&google_editions_ok,
-   google_editions_ok => \&google_editions_ok,
-   skip_cache_check   => \&google_editions_ok,
-   overwrite_expire   => \&google_editions_ok,
    expire             => sub{0},
    is_tuesday         => sub{ [localtime]->[6] == 2 },
 };
@@ -350,16 +345,6 @@ sub unpack_CGIS_req {
 #---------------------------------------------------------------------------
 #  INFO METHODS 
 #---------------------------------------------------------------------------
-sub exclude_stores {
-   my ( $self, %opts ) = @_;
-   ( $opts{cookies}->{'GOOGLE_USER'} ) ? [] : [95];
-}
-
-sub google_editions_ok {
-   my ( $self, %opts ) = @_;
-   my $return = ( $opts{cookies}->{'GOOGLE_USER'} ) ? 1 : 0;
-   return $return;
-}
 
 =head1 TODO or POSSIBLE FEATURES TO BE ADDED 
 
