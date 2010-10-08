@@ -1,8 +1,11 @@
 package Util::Timeout;
 use Util::Log;
 use POSIX qw{ceil};
-use Exporter::Declare;                                                                                                                                               
+use Exporter::Declare qw{-magic};
 use Sys::SigAction qw{timeout_call};
+use Devel::Declare::Parser::Sublike;
+
+#default_exports qw{timeout retry};
 
 =head1 NAME 
 
@@ -35,7 +38,7 @@ for $seconds that is <= 0 will shortcut and your code block will not be executed
 
 =cut
 
-export timeout sublike { 
+default_export timeout sublike { 
    my ($seconds, $code) = @_;
    $seconds = ceil($seconds);
    return 0 unless $seconds > 0;
@@ -57,7 +60,7 @@ your code block will not be run and 0 will be returned;
 
 =cut
 
-export retry sublike {
+default_export retry sublike {
    my ($times, $code) = @_;
    $times = ceil($times);
    return 0 unless $times >= 1;
