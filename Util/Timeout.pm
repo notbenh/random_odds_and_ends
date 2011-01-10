@@ -1,5 +1,4 @@
 package Util::Timeout;
-use Util::Log;
 use POSIX qw{ceil};
 use Exporter::Declare qw{-magic};
 use Sys::SigAction qw{timeout_call};
