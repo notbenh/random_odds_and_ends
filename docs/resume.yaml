@@ -22,81 +22,30 @@ experence :
        - perl
        - mysql 
        - mod_perl 
-   - name : 
-      
-
-
-     
-   
-
-Summit Projects
-HoodRiver, OR 2005 - 2006
-Lead Developer and Technical Producer
-Led team to implement Atomz/WSS Commerce and Search solution.
-Orchestrated the push for W3C standards compliant code.
-Led training for the use and application of HBX site analytics.
-Managed developer relations.
-
-
-Portland Trail Blazers
-Portland, OR 2005
-Design Intern
-Redesigned and developed Flash header.
-Built a collection of online interactive games.
-Designed popup and inpage ads for blazers.com.
-Maintain HTML and ASP pages for blazers.com and fans.blazers.com.
-
-Globio
-Selected and implemented site-search solution.
-Technology Experience
-Portland, OR 2005 - 2006
-Lead Developer
-Designed the framework for the improvement of an online Encyclopedia.
-Assist in conceiving and building a child-friendly user interface.
-Build and maintained templates for a content management system.
-
-
-
-ResNet Development Labs
-Columbus, OH 2000 - 2003
-Creative Director and Developer
-Developed management software for The Ohio State University.
-Designed publications for RNDL, including logos, shirts, and flyers.
-
-
-
-
-Software Experience
-Platform Experience
-
-
-
-PHP
-
-W3C Compliant HTML and XHTML
-
-Adobe Photoshop
-
-Apple
-
-Adobe Illustrator
-
-W3C Compliant CSS
-
-Windows
-
-
-Linux/Unix
-
-Macromedia Flash
-
-MySQL
-
-Perl
-
-Ilan 
-E 
-lll lll 
-Ill 
-E 
-Ill
+   - name : Summit Projects
+     location : HoodRiver, OR 
+     duration: 2005 - 2006
+     title : Lead Developer and Technical Producer
+     type : paid - full time 
+     discription: 
+       - Led team to implement Atomz/WSS Commerce and Search solution.
+       - Orchestrated the push for W3C standards compliant code.
+       - Led training for the use and application of HBX site analytics.
+       - Managed developer relations.
+     skills : 
+       - perl
+       - html/css
+       - project management 
+   - name : Globio Technology Experience
+     location : Portland, OR 
+     duration : 2005 - 2006
+     title : Lead Developer
+     type : volunteer
+       - Selected and implemented site-search solution.
+       - Designed the framework for the improvement of an online Encyclopedia.
+       - Assist in conceiving and building a child-friendly user interface.
+       - Build and maintained templates for a content management system.
+     skills : 
+       - perl
+       - html/css
+       - project management
