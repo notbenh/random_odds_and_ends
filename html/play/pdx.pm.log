@@ -1,0 +1,929 @@
+Conversation with #pdx.pm on Tue 21 Apr 2009 10:14:12 AM PDT:
+(10:14:12 AM) #pdx.pm: The topic for #pdx.pm is: next meeting: qa tool expo/panel
+
+---
+
+
+(10:51:54 AM) Logging of this conversation failed.
+(10:51:54 AM) mode (+o notbenh) by Player2
+(10:52:01 AM) dukeleto: rbuels: i somehow made it home, in a zombie-like trance
+(10:52:07 AM) dukeleto: notbenh: good moroning
+(10:52:50 AM) ewilhelm: the productivity in the peak is only borrowed from the next day and divided by 4
+(10:53:27 AM) gorthx: I wouldn't say "tipsy"
+(10:53:52 AM) gorthx: I would say rather "treated SE Ankeny to my rendition of 'Dirty White Boy'"
+(10:54:16 AM) gorthx: ewilhelm:  I dunno, I'm doing pretty well so far today. :)
+(10:57:49 AM) ***rbuels mentors coworkers on IRC while reseasoning his cast-iron frying pan
+(11:01:47 AM) notbenh: hello all
+(11:01:47 AM) purl: It's a crazy world, but hello to you too!
+duckyd dukeleto 
+(11:02:11 AM) notbenh: dukeleto: its good to see that you made it home and got some sleep
+(11:02:50 AM) notbenh: rbuels: castiron ++ 
+(11:07:20 AM) gorthx: rbuels mine needs reseasoning too.
+(11:10:03 AM) notbenh: gorthx: reseason party at someones place?
+(11:12:13 AM) gorthx: :D
+(11:12:24 AM) gorthx: Schwern has a fireplace, which I've heard is optimal
+(11:15:39 AM) rbuels: if your stove has an exhaust hood, oven at 500 will work fine
+(11:16:14 AM) dukeleto: i need castiron
+(11:16:40 AM) gorthx: dukeleto: four kilts again?
+(11:16:41 AM) dukeleto: notbenh: danke. good work on eulerbench last night! i think that feature warrants us to actually start calling it toolbench now
+(11:17:07 AM) dukeleto: gorthx: yep! If you ask really nicely on the twitterwebs, maybe they will pose for a picture for you. 
+(11:17:40 AM) jhelwig: dukeleto: When are you getting a kilt?
+(11:18:07 AM) gorthx: :$
+(11:18:35 AM) dukeleto: gorthx: @jahgru, @jhelwig, @pvande, @zolannaloz
+(11:18:44 AM) dukeleto: gorthx: those are the kilt wearers
+(11:19:01 AM) dukeleto: gorthx: i will take the pic for you if they agree :)
+(11:19:21 AM) dukeleto: gorthx: three of them are in 1 room, hence the OH
+(11:19:58 AM) gorthx: LOL!
+(11:20:02 AM) gorthx: That's too excellent.
+(11:23:03 AM) ewilhelm: but how many true scotsmen?
+(11:24:46 AM) gorthx: "true scotsmen" as in "gets stabbed in the knee when helping someone up after he's knocked him down in a fight"?
+(11:24:56 AM) rbuels: no, that was an irishman
+(11:25:06 AM) gorthx: oh right.
+(11:25:14 AM) ewilhelm: going regimental?
+(11:25:30 AM) rbuels: so, i just tried to make an omelette in my teflon pan, since the cast iron is down for maintenance.  fail.
+(11:25:39 AM) ***gorthx doesn't actually gather stats on that
+(11:26:56 AM) ewilhelm: gorthx, you can't count kilts without accounting for how they're worn
+(11:27:09 AM) ewilhelm: rbuels, teflon?  THROW IT IN THE LAKE NOW!
+(11:30:09 AM) dukeleto: yeah, teflon always scratches after a few years. then it is worthless. I use them to pot plants
+(11:55:12 AM) notbenh: dukeleto: your very welcome, it would not be where it is with out everyone's help
+duckyd dukeleto 
+(11:55:33 AM) notbenh: dukeleto: and your constant nagging, but it's a good thing, ask stacey it's the only way that I get things done these days
+(11:55:47 AM) notbenh: ewilhelm: no that is not an invitation I've had enough of your nagging...
+(11:56:50 AM) ewilhelm: but I have a whole pile of nag upstairs you ain't even heard yet.
+(11:57:18 AM) ewilhelm: just let me know when you want it.  I can deliver or whatever.
+(11:57:36 AM) notbenh: ~sigh~ not looking forward to getting that shipment
+(12:02:30 PM) dukeleto: ewilhelm: i think you have a few container ships ...
+(12:06:26 PM) ewilhelm: you want it a little at a time on postcards?
+(12:48:42 PM) dukeleto: ewilhelm: sure. please send them to 7700 NE Ambassador Way
+(01:12:28 PM) ewilhelm: grr.  'require Qt' is also faster than 'require Moose'
+(01:17:10 PM) soh [~soh@rancid.raan.net] entered the room.
+(01:17:10 PM) mode (+o soh) by Player2
+(01:17:49 PM) soh left the room (quit: ).
+(01:25:17 PM) reidab [~reidab@173.8.216.62] entered the room.
+(01:59:55 PM) Exodist left the room (quit: Quit: Leaving).
+(02:53:53 PM) reidab left the room (quit: Quit: reidab).
+(03:17:11 PM) dukeleto: ewilhelm: stop complaining and hack on moose to make it faster
+(03:17:23 PM) dukeleto: DRINK THE KOOLAID
+(03:17:39 PM) dukeleto: ewilhelm: i will even put an umbrella in it for you
+duckyd dukeleto 
+(03:23:01 PM) notbenh: dukeleto: woah there you don't want to give the cow away for free...
+(03:23:33 PM) ewilhelm: dukeleto, get your yak off my lawn
+(03:48:43 PM) dukeleto: ewilhelm: I will send you a bill for the yak fertilizer that it leaves behind.
+(03:50:59 PM) notbenh: #happyclappy#
+(03:51:16 PM) dukeleto: lulz
+(04:00:03 PM) ewilhelm: dammit googlenews twitter is not fucking news
+(04:00:50 PM) dukeleto: ewilhelm: then unfollow it you old man
+duckyd dukeleto 
+(04:01:51 PM) notbenh: dukeleto: shineoff?
+(04:02:12 PM) ewilhelm: nonono.  my google.com/alerts is sending my shit from identi.ca, blah blah blah
+(04:03:34 PM) dukeleto: ewilhelm: aahh. there are setting in google search to pick a certain time range and/or not include commercial sites.
+(04:04:42 PM) ewilhelm: fucking google... sign out doesn't work sign in doesn't work.  bah
+(04:05:20 PM) ewilhelm: FUUUUUUUCKKK
+(04:08:19 PM) ewilhelm: I want to shove a big single sign on stick where google's sun doesn't shine
+(04:08:30 PM) dukeleto: ewilhelm: it is called openid
+(04:08:40 PM) dukeleto: ewilhelm: please stick it in there real good
+(04:08:42 PM) dukeleto: i can help
+(04:08:52 PM) ewilhelm: sideways should do it
+(04:08:59 PM) dukeleto: ewilhelm: is it because you are using some nonstandard hippy browser?
+(04:09:08 PM) ewilhelm: actually openid is rather a shitty way to do things
+(04:09:08 PM) ***dukeleto backs up a few feet
+(04:09:28 PM) dukeleto: ewilhelm: openid sucks less than having a different login for every site. i know that
+(04:09:53 PM) ewilhelm: yes,  konqueror is definitely "hippy" - if by "hippy" you mean straightedge
+(04:10:09 PM) dukeleto: there is free beer at the wherecamp preparty tonight, in case anyone cares. "pony kegs"
+(04:10:53 PM) ewilhelm: oh yes, I need some other site to forget my password and preferences because I can't keep track of a fucking ssl key to save my life
+(04:10:57 PM) notbenh: ponies!
+(04:12:25 PM) ewilhelm: but hey I'll just get a google approved operating system with the builtin ihavenorights (TM) device and install it in my rectum
+(04:53:10 PM) gorthx left the room.
+(06:15:45 PM) ewilhelm: Ugh. why can't Sub::Install have a short and simple Sub::Install::install($name, sub {...}) ?
+(06:16:16 PM) ewilhelm: I want to tell people to use the things that people want me to tell them to use, but ...
+(06:17:15 PM) ewilhelm: but then everyone went and read perl best practices and adopted only the bad ideas?
+(06:23:50 PM) ewilhelm: 'use subs::sub' which defines subs::sub (&) {bless shift, "subs::sub"}?
+(06:24:07 PM) ewilhelm: subs::sub {...}->install("foo::bar");
+(06:26:48 PM) confound: Sub::Installer
+(06:26:48 PM) purl: i guess Sub::Installer is a funny module
+(06:29:37 PM) ewilhelm: Sub::Installer is also a piece of junk
+(06:29:37 PM) purl: okay, ewilhelm.
+(06:29:37 PM) pdxbot: it has been said that ewilhelm is available for contract work :-D
+(06:30:50 PM) ewilhelm: confound, you use thaat?
+(06:33:04 PM) confound: whoops
+(06:33:10 PM) confound: I was getting it and Sub::Install backwards
+(06:33:16 PM) confound: Sub::Installer is also DO NOT WANT
+(06:33:16 PM) purl: okay, confound.
+(06:33:17 PM) pdxbot: confound are you saying it would be faster to load every META.json than to load only the ones hit by a grep?
+(06:34:11 PM) ewilhelm: confound, but Sub::Install is WE CAN DO BETTER
+(06:35:32 PM) confound: write Sub::Install::Tiny
+(06:35:44 PM) confound: though Sub::Install is already pretty tiny
+(06:36:18 PM) ***confound doesn't have a problem with Sub::Install
+(06:36:44 PM) ewilhelm: the extra {} almost always triggers my rewriting
+(09:14:10 PM) theory left the room (quit: Quit: theory).
+(09:14:25 PM) theory [~Theory@c-24-21-193-250.hsd1.or.comcast.net] entered the room.
+(09:14:25 PM) mode (+o theory) by Player2
+(10:42:02 PM) theory left the room (quit: Quit: theory).
+(10/03/2009 12:00:05 AM) Day changed to 03 Oct 2009
+(07:51:19 AM) theory [~Theory@c-24-21-193-250.hsd1.or.comcast.net] entered the room.
+(07:51:20 AM) mode (+o theory) by Player2
+(12:40:18 PM) an0maly [~bkurle@166.129.216.230] entered the room.
+(04:32:47 PM) an0maly left the room (quit: Remote host closed the connection).
+(08:50:44 PM) dukeleto: ewilhelm: perl5i has an "alias" keyword that does what Sub::Install does badly
+(08:51:15 PM) dukeleto: ewilhelm: we have something similar to it at $work called 'install_method'
+(08:51:31 PM) dukeleto: ewilhelm: get on the perl5i magic pony train
+(08:52:42 PM) jhelwig: Gah.  I wish the stupid replacement battery for my laptop would get here.  I hate not being able to move around, once I've started working on something. :-(
+(10:05:56 PM) ewilhelm: jhelwig, you should have had it shipped via magic pony express
+(10:07:00 PM) jhelwig: ewilhelm: If only that were actually an option. :-\
+(10:08:02 PM) theory left the room (quit: Quit: theory).
+(10/04/2009 12:00:06 AM) Day changed to 04 Oct 2009
+(12:16:27 AM) dukeleto: notbenh: the next gordian not with toolbench is passing args to the arbitrary files. first, just being able to pass the exact same arguments to each file run would be really useful. I have a parrot script that generates N digits of pi and takes N as a commandline arg
+(12:19:06 AM) dukeleto: notbenh: also, since the runs are done in groups, X runs per interp, in order, if a background process uses some resource during  interpreter foo's runs, it looks like it is slower
+(12:19:48 AM) dukeleto: if the runs were spread out in smaler non-uniform chunks, this wouldn't be as noticeable
+(12:19:57 AM) dukeleto: just a thought
+(08:03:09 AM) theory [~Theory@c-24-21-193-250.hsd1.or.comcast.net] entered the room.
+(08:03:09 AM) mode (+o theory) by Player2
+(08:14:53 AM) theory left the room (quit: Quit: theory).
+(09:32:16 AM) soh [~soh@173-11-4-145-oregon.hfc.comcastbusiness.net] entered the room.
+(12:02:08 PM) ewilhelm: dukeleto, is this cheatsheet any good?  http://cheat.errtheblog.com/s/gitsvn/
+(12:04:18 PM) ewilhelm: or, you have suggestions for "I just wanna pretend I'm using svk but it's faster" usage doc?
+(12:04:46 PM) jhelwig: ewilhelm: That link is fine, if all you care about is a single SVN branch.
+(12:05:07 PM) ewilhelm: sam's guide goes off on fifty tangents about how to launch satellites and commune with aliens
+(12:05:17 PM) jhelwig: If you want to be able to work with more than just the trunk branch, you'll need a few more options for the git-svn clone.
+(12:05:40 PM) ewilhelm: thanks.  if I get that far I'm probably fucked anyway
+(12:08:49 PM) ewilhelm: anything wrong with starting from HEAD?
+(12:09:30 PM) jhelwig: Not if you don't care about any of the history.
+(12:11:17 PM) ewilhelm: who cares about history?
+(12:13:57 PM) ewilhelm: git-svn show-ignore is using the network?
+(12:14:26 PM) jhelwig: Possibly. I don't know off hand.
+(12:14:44 PM) jhelwig: It's not really a command I run on a regular basis.  Just when setting up a new git-svn clone.
+(12:21:22 PM) ewilhelm: sub import {    no strict 'refs'; <-- might as well have a comment "# FUCK YOU. HAVE FUN" there :-/
+(12:22:10 PM) ewilhelm: uh... instead I get comments explaining what (caller)[0] means!
+(12:23:13 PM) dukeleto: ewilhelm: because you might not have read perldoc
+(12:24:14 PM) ewilhelm: if I wanted to read redundant crap, I would use python
+(12:24:43 PM) dukeleto: ewilhelm: that cheatsheet is ok, but not understanding what is going on with git-svn and just memorizing commands can get you in deep shit pretty quickly. best not to use git-svn if you can help it
+(12:25:03 PM) dukeleto: what are you using git svn for?
+(12:25:10 PM) dukeleto: some one else's repo or yours?
+(12:28:29 PM) ewilhelm: dukeleto, googlecode
+(12:29:46 PM) ewilhelm: "not understanding what is going on" is what you might call "the user abstraction model" and it's the only way anyone can get anything done
+(12:30:30 PM) dukeleto: ewilhelm: let's argue about it
+(12:31:15 PM) dukeleto: ewilhelm: googlecode doesn't tell me if it is your repo or someone elses. do you control that svn repo or is it some other crazy persons?
+(12:31:44 PM) ewilhelm: "that's not an argument, it's just contradiction", "no it's not"
+(12:32:43 PM) ewilhelm: someone else... I'm trying to pretend I'm using svk, remember?
+(12:32:51 PM) dukeleto: ewilhelm: if you hope to use git-svn, you need to understand git and svn seperately at certain levels to not get in trouble. that is all I am saying. you obviously know svn, but git is still a mystery and then git-svn wraps it in an enigma
+(12:32:59 PM) dukeleto: ewilhelm: gotcha
+(12:33:15 PM) dukeleto: ewilhelm: i have never used svk, but i think i grasp what it does
+(12:33:29 PM) ewilhelm: I don't really understand svn, but I've used it for years.
+(12:34:10 PM) dukeleto: ewilhelm: i have a script that mirrors and svn repo into git, including all branches. would that be useful to you?
+(12:34:18 PM) dukeleto: s/and svn/an svn/
+(12:34:28 PM) ewilhelm: Really, I don't want to know how the git sausage is made.
+(12:34:52 PM) ewilhelm: no that's not useful.  I "just" "want" "HEAD" from "trunk"
+(12:35:19 PM) ewilhelm: and then I'm going to plod along in a nice sequential fashion and maybe send a patch somewhere at some point
+(12:36:03 PM) ewilhelm: I know it's a flying car and shit but I need to go get some groceries mkay?
+(12:37:06 PM) dukeleto: ewilhelm: so you just want to mirror trunk?
+(12:37:22 PM) ewilhelm:  git-svn clone -r HEAD https://perlqt4.googlecode.com/svn/trunk/PerlQt4/perl qt4.me
+(12:37:41 PM) dukeleto: ewilhelm: my script does that too. you can just turn of branch mirroring
+(12:38:51 PM) ewilhelm: when would (caller)[0] be 'if' ?
+(12:40:08 PM) ewilhelm: oh shit
+(12:40:25 PM) dukeleto: good lord
+(12:40:25 PM) purl: Yeah, right.
+(12:40:54 PM) ewilhelm: "use if $confidition module => arguments" fuck
+(12:41:41 PM) ewilhelm:   my $incaller = (caller)[0]; $incaller = (caller(1))[0] if $incaller eq 'if';
+(12:42:05 PM) ewilhelm: but my if.pm uses gosub, so wtf... time to get out the swear bucket
+(12:42:52 PM) ewilhelm: I should just print this code on barfbags instead of reading it on screen
+(03:42:33 PM) soh left the room (quit: Quit: soh).
+(04:20:52 PM) theory [~Theory@c-24-21-193-250.hsd1.or.comcast.net] entered the room.
+(04:20:52 PM) mode (+o theory) by Player2
+(09:52:36 PM) theory left the room (quit: Quit: theory).
+(10/05/2009 12:00:06 AM) Day changed to 05 Oct 2009
+(06:27:47 AM) soh [~soh@173-11-4-145-oregon.hfc.comcastbusiness.net] entered the room.
+(06:40:35 AM) Exodist [~chad@173-11-4-145-oregon.hfc.comcastbusiness.net] entered the room.
+(07:15:05 AM) gorthx [~gorthx@216-20-149-84-dsl.hevanet.com] entered the room.
+(07:15:06 AM) mode (+o gorthx) by Player2
+(08:08:46 AM) theory [~Theory@c-24-21-193-250.hsd1.or.comcast.net] entered the room.
+(08:08:46 AM) mode (+o theory) by Player2
+(08:09:28 AM) theory left the room (quit: ).
+(09:40:46 AM) theory [~Theory@68.178.103.210] entered the room.
+(09:40:46 AM) mode (+o theory) by Player2
+(10:07:48 AM) dukeleto: ewilhelm: what fucking code is this qt4 bindings to perl? 
+(10:15:26 AM) dukeleto: ewilhelm: just use swig and write your own that are not braindead
+(10:19:44 AM) ewilhelm: dukeleto, swig probably cannot handle it
+(10:20:01 AM) dukeleto: ewilhelm: you question the force?
+(10:20:19 AM) ewilhelm: or at least, it's going to be a fucking huge task.  You want to try it with me?
+(10:20:43 AM) ewilhelm: there are 17k methods in 199 classes
+(10:21:03 AM) dukeleto: ewilhelm: i will give you the occasional tip, but I don't really care about qt
+(10:21:17 AM) dukeleto: sad but tru
+(10:21:43 AM) ewilhelm: it is looking like I have to start from zero though.  The qt3 bindings were GPL and that means nobody can use Qt at work.
+(10:21:46 AM) dukeleto: ewilhelm: you can steal all my scaffolding from math::gsl
+(10:22:05 AM) ewilhelm: even if they had a trolltech license, they would have been unable to write non-gpl internal apps in perl
+(10:22:14 AM) dukeleto: ewilhelm: your $work ?
+(10:22:18 AM) ewilhelm: but qt4.5 is LGPL, so this should all be moot
+(10:22:35 AM) ewilhelm: JotDB I hope, but anybody's $work.
+(10:25:05 AM) dukeleto: ewilhelm: do you have a new gig?
+(10:29:56 AM) ewilhelm: pdxbot, ewilhelm?
+(10:29:56 AM) pdxbot: you are available for contract work :-D
+(10:40:37 AM) reidab [~reidab@173.8.216.62] entered the room.
+(11:29:26 AM) dukeleto: ewilhelm: rw object method attrs http://use.perl.org/~masak/journal/39709?from=rss
+(11:36:19 AM) ewilhelm: dukeleto, yes?
+(11:36:58 AM) dukeleto: ewilhelm: just thought you might like to see that
+(11:37:11 AM) dukeleto: ewilhelm: and to make you start hacking on perl 6
+(11:37:37 AM) dukeleto: sprixel seems pretty cool
+(11:39:41 AM) ewilhelm: http://identi.ca/search/notice?q=songsinperl6&search=Search
+(11:41:50 AM) dukeleto: ewilhelm: NICE!
+(11:43:05 AM) dukeleto: i am behind the times
+(12:06:09 PM) theory left the room (quit: Quit: theory).
+(12:14:30 PM) ewilhelm: huh... \&{"foo::bar"} doesn't violate strict refs?
+(12:28:37 PM) Exodist left the room (quit: Quit: Leaving).
+(12:29:32 PM) theory [~Theory@207.173.77.239] entered the room.
+(12:34:20 PM) ewilhelm: hmm, all you need is:  my $X = sub :lvalue {my $n = shift; no strict 'refs'; no warnings 'once'; *{"$n"}};
+(12:35:04 PM) ewilhelm: then you can $X->($whatever) = sub {warn "all your globs are belong to us"};
+(01:14:34 PM) theory left the room (quit: Quit: theory).
+(01:29:42 PM) theory [~Theory@68.178.106.161] entered the room.
+(02:56:43 PM) dukeleto: http://google-opensource.blogspot.com/2009/10/perls-of-wisdom-perl-foundation-parrots.html
+(02:59:57 PM) dukeleto: i didn't choose the title
+(03:12:47 PM) theory left the room (quit: Quit: theory).
+(03:21:17 PM) ewilhelm: nice getting the shout-out from http://twitter.com/gsoc
+(03:32:06 PM) dukeleto: yeps
+(03:34:37 PM) theory [~Theory@c-24-21-193-250.hsd1.or.comcast.net] entered the room.
+(03:34:38 PM) mode (+o theory) by Player2
+(03:42:02 PM) Exodist [~Exodist@75-148-94-149-Oregon.hfc.comcastbusiness.net] entered the room.
+(03:42:58 PM) Exodist: Does anyone know offhand what if any current distro versions use perl <5.8?
+(03:46:45 PM) confound: I'd be amazed if any did
+(03:47:15 PM) confound: did you mean <= 5.8?
+(03:47:42 PM) Exodist: good, I wrote a module that cpan testers showed failing for everything 5.6.x  so I just made it require 5.8+, wanted to make sure I wasn't cutting out current debian, ubuntu, or anythign like that
+(03:48:06 PM) Exodist: I didn't want to try to find a 5.6 version to develop a fix with.
+(03:48:13 PM) confound: current debian is 5.10 actually
+(03:48:19 PM) Exodist: nice, then no worries for me.
+(03:48:37 PM) Exodist: confound, did you see Package::Watchdog when I linked it on my FB?
+(03:48:44 PM) Exodist: I would be curious of your opinion on it
+(03:48:52 PM) Exodist: http://search.cpan.org/~exodist/Package-Watchdog-0.08/
+(04:26:50 PM) ewilhelm: Exodist, lenny went stable back in Feb or so.  if you came to meetings you would know this :-D
+(04:27:31 PM) Exodist: lenny?
+(04:27:31 PM) purl: lenny is gonna come to my house and break my face or the binoculars or debian testing
+(04:27:46 PM) Exodist: oh, is it a debian codename?
+(04:27:48 PM) dukeleto: Exodist: debian 5 is called "lenny"
+(04:27:49 PM) ***Exodist uses gentoo
+(04:29:04 PM) ewilhelm: purl, forget lenny
+(04:29:04 PM) purl: ewilhelm: I forgot lenny
+(04:29:17 PM) ewilhelm: lenny is gonna come to my house and break my face
+(04:29:25 PM) ewilhelm: lenny is also debian stable
+(04:29:25 PM) purl: okay, ewilhelm.
+(04:29:25 PM) pdxbot: okay, ewilhelm.
+(04:29:25 PM) purl: somebody said ewilhelm was the answer to all my problems.  All you have to do is ask (and write a check).
+(04:29:26 PM) pdxbot: ewilhelm is available for contract work :-D
+(04:29:31 PM) ewilhelm: lenny?
+(04:29:31 PM) purl: hmmm... lenny is gonna come to your house and break your face or debian stable
+(04:29:31 PM) pdxbot: it has been said that lenny is gonna come to your house and break your face or debian stable
+(04:30:02 PM) ewilhelm: I think there's still one BSD shipping 5.8.8
+(04:35:26 PM) Exodist: it passes on all 5.8 and 5.10 test hosts
+(04:35:41 PM) jhelwig: 5.8+ is a reasonable requirement.
+(04:36:04 PM) soh left the room (quit: Quit: soh).
+(05:07:07 PM) gorthx left the room (quit: Ping timeout: 360 seconds).
+(06:07:46 PM) reidab left the room (quit: Quit: reidab).
+(10:26:24 PM) theory left the room (quit: Quit: theory).
+(10/06/2009 12:00:06 AM) Day changed to 06 Oct 2009
+(06:38:24 AM) soh [~soh@173-11-4-145-oregon.hfc.comcastbusiness.net] entered the room.
+(07:15:35 AM) theory [~Theory@c-24-21-193-250.hsd1.or.comcast.net] entered the room.
+(07:15:35 AM) mode (+o theory) by Player2
+(09:32:16 AM) dukeleto: good moroning
+(09:58:49 AM) ewilhelm: I'm not sure this is one of the better ones.
+(10:29:13 AM) gorthx [435b73ee@webchat.mibbit.com] entered the room.
+(10:31:51 AM) theory: ewilhelm: ping
+(10:53:38 AM) ewilhelm: theory, pong
+(10:54:37 AM) theory: ewilhelm: Finally trying to install wxWidgets on Snow Leopard with Perl 5.10.1.
+(10:54:41 AM) theory: Getting an error
+(10:55:03 AM) theory: ewilhelm: http://scsys.co.uk:8001/34649
+(10:55:06 AM) theory: Know anythign about that?
+(10:55:08 AM) ewilhelm: your 5.10.1?
+(10:55:51 AM) theory: yes, built from source
+(10:56:05 AM) theory: that error is from Aliesn::wxWidgets's ./Build
+(10:56:11 AM) theory: using sources downloaded
+(10:58:06 AM) ewilhelm: http://www.nntp.perl.org/group/perl.wxperl.users/2009/09/msg6832.html
+(10:59:04 AM) theory: ah
+(10:59:05 AM) theory: thanks
+(10:59:23 AM) ewilhelm: so you need to use trunk?
+(10:59:30 AM) theory: I'll try it, yeah
+(11:01:39 AM) theory: ewilhelm: Should I build with OpenGL support?
+(11:01:50 AM) ewilhelm: #padre and #wxperl might be more help than me
+(11:01:54 AM) theory: ah
+(11:02:00 AM) ewilhelm: you won't need OpenGL for #padre
+(11:13:21 AM) theory: oh fuck
+(11:13:26 AM) theory: it requires 32-bit perl
+(11:13:29 AM) theory: hate
+(11:13:45 AM) ***theory goes back to emacs
+(11:17:36 AM) ewilhelm: what requires 32-bit?
+(11:22:42 AM) theory: Can't build wxWidgets 2.8.x to work with a 64-bit Perl, you will need
+(11:22:42 AM) theory: to recompile your Perl as a 32-bit binary.
+(11:32:50 AM) ewilhelm: can't build wxWidgets as 64 bit on a mac?
+(11:35:33 AM) theory: Dunno. That warning comes from Alien::wxWidgets
+(11:36:14 AM) ***theory switches to #padre
+(11:37:26 AM) theory: thanks ewilhelm 
+(12:24:03 PM) ewilhelm: wow... local ( *IN, ); open IN, "<", $in ...
+(12:24:49 PM) ewilhelm: oh no, wait... fuck.  local ( *OUT, );  sysopen OUT, $out, O_CREAT|O_WRONLY|O_TRUNC ...
+(02:47:08 PM) gorthx left the room (quit: Quit: http://www.mibbit.com ajax IRC Client).
+(03:20:06 PM) leto__ left the room (quit: Remote host closed the connection).
+(04:05:11 PM) dukeleto: blub
+(04:27:34 PM) ewilhelm: you mean bulb?
+(04:57:47 PM) soh left the room (quit: Quit: soh).
+(05:58:53 PM) ewilhelm: A19 incandescent lamp?
+(05:59:24 PM) duckyd: H4 HID!
+(06:00:04 PM) ewilhelm: tulip?
+(06:00:33 PM) duckyd: basting?
+(06:00:45 PM) ewilhelm: corm?
+(06:01:10 PM) ewilhelm: blub:  A vegetable or animal made up of a number of individuals
+(06:01:39 PM) duckyd: bulbapedia?
+(06:03:08 PM) ewilhelm: I'm gonna put my blub in an oak cask for 12 years and see if it turns into whiskey.
+(06:03:33 PM) duckyd: hah
+(06:03:49 PM) ewilhelm: duckyd, how's your hand holding up?
+(06:04:14 PM) duckyd: so so.  doesn't like being cooped up in the splint all day
+(06:04:46 PM) ewilhelm: I sliced my thumbtip half open last night, which has turned into a little reminder about the wonders of an opposable digit
+(06:05:44 PM) ewilhelm: not that my cat doesn't continually remind me that she has no thumbs
+(06:07:39 PM) duckyd: heh.  Yes, not only are opposable digits awesome, but having two extremties which feature them is key too
+(06:08:34 PM) duckyd: so you were just sitting around, cutting thumbs last night?
+(06:09:48 PM) ewilhelm: i dunno.  I wonder if detaching the injured digit while it heals would be better than trying not to get it wet/dirty/wedged
+(06:10:00 PM) ewilhelm: yeah, we have thumbs for dinner every so often
+(06:11:11 PM) duckyd: mmmm....  thumbs
+(08:36:46 PM) reidab [~reidab@173.8.216.62] entered the room.
+(10:21:29 PM) theory left the room (quit: Quit: theory).
+(10/07/2009 12:00:11 AM) Day changed to 07 Oct 2009
+(12:24:42 AM) Exodist left the room (quit: Quit: Leaving).
+(12:58:37 AM) reidab left the room (quit: Ping timeout: 360 seconds).
+(01:03:23 AM) reidab [~reidab@173.8.216.62] entered the room.
+(01:20:40 AM) dukeleto: fresh blood: http://github.com/notbenh/euler_bench/commit/1446e3ab004d477be3248bd00d23db8caa7f909d
+(01:43:47 AM) Ryan52 left the room (quit: Ping timeout: 360 seconds).
+(01:43:57 AM) jhelwig left the room (quit: Ping timeout: 360 seconds).
+(03:10:00 AM) jhelwig [~jhelwig@96.225.220.117] entered the room.
+(07:11:36 AM) gorthx [~gorthx@216-20-149-84-dsl.hevanet.com] entered the room.
+(07:11:37 AM) mode (+o gorthx) by Player2
+(07:23:46 AM) soh [~soh@173-11-4-145-oregon.hfc.comcastbusiness.net] entered the room.
+(07:26:06 AM) Ryan52 [~Ryan52@pool-173-50-228-205.ptldor.fios.verizon.net] entered the room.
+(07:26:06 AM) mode (+o Ryan52) by pdxbot
+(07:33:19 AM) theory [~Theory@c-24-21-193-250.hsd1.or.comcast.net] entered the room.
+(07:33:19 AM) mode (+o theory) by Player2
+(08:46:27 AM) Exodist [~chad@173-11-4-145-oregon.hfc.comcastbusiness.net] entered the room.
+(09:20:06 AM) duckyd: my fortune today: You will be run over by a beer truck.
+(09:20:14 AM) duckyd: I s'pose it could be worse
+(09:20:24 AM) ewilhelm: that could be a metaphor
+(09:20:44 AM) duckyd: I guess it could be :)
+(09:40:32 AM) dukeleto: Well, it definitely isn't a simile.
+(10:36:41 AM) ewilhelm: blah.  a tutorial on objects should not contain the term "reconsecrate"
+(10:37:18 AM) ewilhelm: THIS IS WHY WE CAN'T HAVE NICE THINGS.
+(10:42:54 AM) theory: seen schwern
+(10:42:54 AM) purl: schwern was last seen on #perl 54 days, 23 hours, 32 minutes and 27 seconds ago, saying: mdxi:  I presume you've seen the issues with Safari "plugins"?  Did they fix that in 4?  [Aug 13 18:02:15 2009]
+(10:42:54 AM) pdxbot: schwern was last seen on #pdx.pm 55 days and 17 hours ago, saying: s/co/checkout/ [Wed 12 Aug 2009 05:28:58 PM PDT]
+(10:50:00 AM) soh: 54 days, huh?  that's not bad for schwern.
+(10:57:58 AM) dukeleto: theory: i saw schwern last night
+(10:58:14 AM) theory: dukeleto: Good to know he's still alive. ;-)
+(10:58:53 AM) dukeleto: theory: he seemed to be doing fine, just doing his own thing. I told him to come to the hackathon on thursday
+(10:59:19 AM) theory: COOL
+(10:59:25 AM) dukeleto: he is rewriting URI::Find from scratch and playing lots of PS/2 emulator games
+(10:59:53 AM) theory: heh
+(11:01:51 AM) selenamarie [~selena@216-20-149-84-dsl.hevanet.com] entered the room.
+(11:01:52 AM) mode (+o selenamarie) by Player2
+(11:02:04 AM) selenamarie: dukeleto: i require your attention!
+(11:02:49 AM) selenamarie: quiet in here.
+(11:02:49 AM) purl: well, quiet in here is palpable
+(11:02:56 AM) selenamarie: JINX
+(11:03:16 AM) theory: selenamarie: Damn, you're demanding!
+(11:03:32 AM) selenamarie: theory: whatever dude! i got things to do! stuff to accomplish! tasks to complete!
+(11:03:39 AM) dukeleto: selenamarie: yo
+(11:03:51 AM) ***theory grins
+(11:03:53 AM) selenamarie: hey - have you booked your flight for next week
+(11:03:59 AM) dukeleto: selenamarie: yeps
+(11:04:00 AM) selenamarie: dukeleto: ^^
+(11:04:11 AM) selenamarie: are you on tripit or something? can we share details? 
+(11:04:36 AM) dukeleto: selenamarie: should I be on tripit? is it useful?
+(11:04:59 AM) selenamarie: dukeleto: it's really only useful for sharing stuff and sending you reminder emails when you forget where it was you were supposed to be flying to that week.
+(11:05:02 AM) selenamarie: (has happened)
+(11:05:11 AM) theory: dukeleto: If you forward a confirmation email to tripit, it will parse it perfectly.
+(11:05:21 AM) selenamarie: mostly, i wanted to see if we could carpool to the hotel 'n' stuff
+(11:05:25 AM) theory: there's also dopplr, though.
+(11:05:28 AM) dukeleto: theory: that is cool
+(11:05:58 AM) dukeleto: selenamarie: i have a slightly odd trip planned, but I will share info with ya
+(11:06:15 AM) selenamarie: dukeleto: ok, no probs. if it doesn't work out, i will just suffer on public transit alone.
+(11:07:30 AM) dukeleto: selenamarie: how do I add you on tripit?
+(11:07:47 AM) selenamarie: dukeleto: maybe add me by my gmail addr
+(11:08:43 AM) theory: dukeleto: what email address did you use?
+(11:08:56 AM) selenamarie: dukeleto: is jerry coming to the mentor summit? 
+(11:13:45 AM) dukeleto: selenamarie: he is on the fence. he is invited, but funding/rooms is still iffy
+(11:14:18 AM) selenamarie: dukeleto: bummer! tell him we are bringing the scotch.
+(11:19:30 AM) dukeleto: selenamarie: i just invited you on tripit
+(11:20:19 AM) selenamarie: dukeleto: awesome! so, i think you have to share that particular trip with me. 
+(11:21:07 AM) dukeleto: selenamarie: i need to find the dumb email to forward to them, looking now....
+(11:21:19 AM) selenamarie: dukeleto: haha sorry for all the trouble. 
+(11:22:30 AM) dukeleto: selenamarie: i just forwarded them an email from alaska airlines, lets see if it works
+(11:23:20 AM) dukeleto: selenamarie: no troubles, i think tripit as an addition to linkedin kind of makes sense. 
+(11:30:05 AM) dukeleto: selenamarie: i think it is still going through the tubes. perhaps the dump truck got a flat
+(11:30:37 AM) dukeleto: We received your email (Subject Line: Fwd: Your Alaska Airlines/Horizon Air Trip) but had a problem processing it. This typically happens when your email is not from one of our currently supported booking sites.
+(11:30:41 AM) dukeleto: lamers
+(11:30:49 AM) selenamarie: oh lame
+(11:30:57 AM) selenamarie: it processed my AA stuff before
+(11:31:00 AM) selenamarie: *sigh*
+(11:31:02 AM) dukeleto: theory: you lied :)
+(11:31:31 AM) dukeleto: it is in their list of supported airlines
+(11:31:38 AM) theory: Damn.
+(11:31:44 AM) theory: Wonder if AA changed its format on them.
+(11:32:11 AM) theory: dukeleto: What's your emaila address?
+(11:32:23 AM) theory: oh, got your invite
+(11:32:38 AM) dukeleto: i have multiple emails from alaska airlines, I am trying the other
+(11:35:40 AM) dukeleto: it worked!
+(11:35:40 AM) purl: Of course it worked
+(11:35:45 AM) dukeleto: botsnack
+(11:35:45 AM) purl: thanks dukeleto :)
+(11:35:45 AM) pdxbot: :)
+(11:35:48 AM) dukeleto: botsmack
+(11:35:48 AM) purl: please!  another hit!  just one more.... *sigh*
+(11:36:00 AM) dukeleto: purl, tripit?
+(11:36:00 AM) purl: wish i knew, dukeleto
+(11:36:38 AM) dukeleto: purl, tripit is turn on, tune in, trip out
+(11:36:38 AM) purl: OK, dukeleto.
+(11:36:39 AM) pdxbot: dukeleto is my daddy or probably not my daddy
+(11:37:03 AM) dukeleto: selenamarie: let me know if you can see my trip
+(11:37:42 AM) theory: http://www.tripit.com/people/jaleto
+(11:37:46 AM) theory: "No upcoming trips"
+(11:37:56 AM) theory: dukeleto: I think you have to visit the site to approve what it parsed
+(11:38:18 AM) dukeleto: selenamarie: fuck, i imported my flight from last year
+(11:38:24 AM) theory: lol
+(11:38:28 AM) ***dukeleto slaps forehead
+(11:38:30 AM) selenamarie: lol
+(11:43:15 AM) dukeleto: yeah, newer alaska airlines emails don't work
+(11:43:32 AM) selenamarie: meh.
+(11:43:46 AM) selenamarie: dukeleto: you can just forward the departure/arrival to me by email :D
+(11:43:49 AM) selenamarie: hahaha
+(11:43:52 AM) selenamarie: after all that!
+(11:43:52 AM) purl: somebody said after all that was a personal choice.
+(11:44:06 AM) selenamarie: is purl a bot? 
+(11:44:58 AM) dukeleto: selenamarie: yes
+(11:45:02 AM) dukeleto: purl, go play in traffic
+(11:45:02 AM) ***purl wanders off to dent some cars.
+(11:45:18 AM) dukeleto: selenamarie: yeah, gonna forward to you :)
+(11:45:22 AM) selenamarie: hahaha
+(11:45:24 AM) selenamarie: thanks
+(11:53:16 AM) selenamarie: dukeleto: fyi, email not received. maybe googlewave sucks.
+(11:54:01 AM) dukeleto: selenamarie: now i can't even find my 2009 reservation. this. is. madness.
+(11:54:21 AM) selenamarie: i'm so sorry!
+(11:54:22 AM) dukeleto: selenamarie: google wave *does* suck, but that is not germain to this discussion :)
+(11:54:25 AM) selenamarie: LOL
+(11:54:29 AM) dukeleto: germane?
+(11:54:34 AM) selenamarie: yeah
+(11:54:39 AM) selenamarie: like germinate? 
+(11:54:40 AM) dukeleto: not quite sure, but it is a fun word
+(11:54:47 AM) dukeleto: gerbilation?
+(11:54:51 AM) selenamarie: cant these bots spell? 
+(11:55:00 AM) selenamarie: pdxbot: please spell germane
+(11:55:09 AM) selenamarie: purl, please spell germane.
+(11:55:09 AM) purl: selenamarie: excuse me?
+(11:55:10 AM) pdxbot: SIMM crosstalk.
+(11:55:32 AM) dukeleto: selenamarie: basically, I am flying into SFO and taking caltrain to SJC, so i don't think we will be able to carpool on the way there
+(11:55:38 AM) selenamarie: .g germane
+(11:55:40 AM) selenamarie: hmm. 
+(11:55:45 AM) dukeleto: selenamarie: when are you going back to pdx?
+(11:55:55 AM) selenamarie: dukeleto: i haven't booked yet. 
+(11:55:58 AM) dukeleto: selenamarie: purl can't spel
+(11:56:02 AM) dukeleto: selenamarie: gotcha
+(11:56:11 AM) selenamarie: i was thinking of flying in on the 20th - are you flyin gin then? 
+(11:56:38 AM) dukeleto: selenamarie: I am arriving in SFO at 11:55am, Mon, Oct 19th
+(11:56:44 AM) selenamarie: ah. ok :)
+(11:58:18 AM) dukeleto: selenamarie: it is like i deleted the email. now I don't even know my trip details! thanks tripit...
+(11:58:37 AM) selenamarie: google remembers everything, fortunatelyl
+(12:01:54 PM) dukeleto: selenamarie: i am just getting someone that I already sent it to do forward it back to me :) It is not in my sent email in gmail because I sent it from their crappy website
+(12:02:05 PM) ***dukeleto sighs and says "oh you interwebs, you"
+(12:02:48 PM) dukeleto: ok, trying again
+(12:02:52 PM) ***dukeleto crossing a few limbs
+(12:04:18 PM) dukeleto: it worked!
+(12:04:18 PM) purl: Of course it worked
+(12:05:19 PM) dukeleto: selenamarie: i am leaving the next monday at 11:50 am
+(12:06:08 PM) selenamarie: gotcha
+(12:06:13 PM) selenamarie: i was thinking of coming back sunday - are you? 
+(12:06:31 PM) dukeleto: selenamarie: nope, monday morning
+(12:06:34 PM) selenamarie: ok
+(12:06:39 PM) selenamarie: is there a party sunday night? 
+(12:06:45 PM) selenamarie: or are you just staying an extra day? 
+(12:07:17 PM) dukeleto: selenamarie: just wanted to have an extra buffer day on monday so that I can party on sunday night if I want. I assume that there will be 
+(12:07:32 PM) ***selenamarie weighs pros/cons.
+(12:07:57 PM) selenamarie: i hope someone asks me how technical i am at the mentor summit again.
+(12:07:57 PM) gorthx: selenamarie: you know what gets my vote ;)
+(12:08:04 PM) gorthx: selenamarie: what?
+(12:08:07 PM) ewilhelm: if dukeleto says there's a party, there's a party
+(12:08:15 PM) gorthx: ewilhelm: right on.
+(12:08:18 PM) selenamarie: party +1
+(12:08:27 PM) dukeleto: indeed
+(12:08:49 PM) ewilhelm: selenamarie, you do technical stuff?  really, like not just baking or what?
+(12:08:59 PM) selenamarie: all i do is bake, clean house, and make babies.
+(12:09:13 PM) ewilhelm: babies are real technical I hear
+(12:09:19 PM) selenamarie: lots of moving parts.
+(12:09:46 PM) soh: babies are super technical, but there are many layers of abstraction
+(12:09:58 PM) ewilhelm: how did someone like that even get into the mentor summit?
+(12:10:20 PM) selenamarie: ewilhelm: i dunno, it was weird. 
+(12:10:35 PM) selenamarie: i think because i was wearing stylish shoes, and did not wear a nerd tshirt, i got asked that question.
+(12:11:57 PM) ewilhelm: you need more tape on your glasses
+(12:12:11 PM) confound: selenamarie: wait, what?
+(12:12:11 PM) purl: yeah, seriously
+(12:12:35 PM) selenamarie: confound: oh, i'm just kvetching about silly social stuff. some dude asked me how technical i was.
+(12:12:37 PM) confound: selenamarie: "how technical are you"?
+(12:12:40 PM) confound: huh
+(12:12:45 PM) selenamarie: yes, those exact words were uttered :D
+(12:12:47 PM) confound: what did you say?
+(12:12:47 PM) purl: I'm sorry, I'm sorry, what I actually said is, *gets megaphone* HOW WOULD YOU LIKE TO LICK MY BALLS
+(12:12:49 PM) selenamarie: i didn't know what to say.
+(12:12:50 PM) selenamarie: LOL
+(12:12:54 PM) confound: purl is helpful
+(12:12:55 PM) ewilhelm: they thought you were just there with your boyfriend?
+(12:13:04 PM) selenamarie: LOL
+(12:13:11 PM) selenamarie: that's the only reason i go to conferences, really.
+(12:13:49 PM) dukeleto: selenamarie: who asked you that?
+(12:13:51 PM) ewilhelm: you should carry a really big stick with you that says "BOYFRIEND" on it
+(12:13:54 PM) gorthx: selenamarie:  I think purl's got the right idea.  Esp the megaphone usage.
+(12:13:59 PM) gorthx: ewilhelm:  OMG.
+(12:14:07 PM) dukeleto: that may be the funniest thing purl has said in a while
+(12:14:17 PM) selenamarie: yes. that was pretty funny.
+(12:14:30 PM) ewilhelm: gorthx, well, when you put it THAT way, maybe not...
+(12:14:33 PM) selenamarie: dukeleto: oh, i haven't had enough alcohol to name names yet.
+(12:14:40 PM) dukeleto: selenamarie: gotcha :)
+(12:14:47 PM) selenamarie: it wasn't anyone that we know.
+(12:14:58 PM) dukeleto: selenamarie: was this question asked in a hot tub by any chance?
+(12:15:07 PM) selenamarie: dukeleto: HAHA. no it was at breakfast the first day
+(12:15:17 PM) selenamarie: some random person sat down next to me and started babbling about his PhD thing
+(12:15:32 PM) selenamarie: and i didn't really understand what he was talking about (because it was all gobbledy-gook, to be honest)
+(12:15:53 PM) ***gorthx has wanted a megaphone for a while, and this may really push her to get one.
+(12:15:56 PM) selenamarie: and so instead of thinking, "Hmm, maybe i'm not explaining myself very well", he went down the road of "oh, she must not know anything about technical things"
+(12:15:58 PM) ewilhelm: haha... tech conference pickup lines:  "hey, you wanna get technical with me?"
+(12:16:43 PM) ***gorthx makes note to put "boyfriend" sticker on laptop
+(12:17:15 PM) dukeleto: no man can satisfy gorthx as much as "git rebase -i"
+(12:17:23 PM) selenamarie: LOL
+(12:17:29 PM) gorthx: :$
+(12:17:31 PM) selenamarie: how about git pull --rebase
+(12:17:46 PM) gorthx: hee hee
+(12:17:48 PM) selenamarie: maybe that's more of a dude command.
+(12:18:02 PM) ***gorthx :highfive: s selenamarie
+(12:18:04 PM) ewilhelm: not sure if rebastiality is within bounds here
+(12:18:11 PM) gorthx: whoa, now
+(12:19:15 PM) ***selenamarie apologizes to the channel
+(12:19:22 PM) ***dukeleto writes this down in his notebook
+(12:19:35 PM) dukeleto: selenamarie: high five on git pull --rebase
+(12:19:36 PM) ***gorthx thinks how long it's been since we've had The Furry Discussion (tm) at pdx.pm
+(12:19:42 PM) dukeleto: git yank ?
+(12:20:05 PM) ewilhelm: dukeleto, stop playing with the porcelain
+(12:20:13 PM) gorthx: dukeleto: another good one for the aliases file.
+(12:20:54 PM) dukeleto: if git and svn had furry sex with each other, which animals would they be?
+(12:21:05 PM) dukeleto: lets not think about cvs
+(12:21:19 PM) selenamarie: or hg? messy.
+(12:22:06 PM) gorthx: rcs!
+(12:23:04 PM) dukeleto: git-svn must be the product of furry sex. that is the only sane explanation
+(12:23:15 PM) gorthx: LOL
+(12:25:08 PM) ewilhelm: I think the git usage has caused some brain rot.
+(12:26:37 PM) ewilhelm:     SV* autoload = get_sv( "Qt::AutoLoad::AUTOLOAD", TRUE );
+(12:28:34 PM) dukeleto: ewilhelm: i told you autoload makes for unmaintainable code. have fun with that
+(12:29:39 PM) ewilhelm: unmaintainable?  this is autoload written in XS which reimplements inheritance in a different package than the one into which $self is blessed
+(12:30:05 PM) ewilhelm: oh, and $self is not always included as the first argument to a method
+(12:30:27 PM) ewilhelm: like doing:  shift->can("whatever")->(@_);
+(12:30:56 PM) ewilhelm: but there's a this() function (also XS) which contains your $self!
+(12:32:23 PM) ewilhelm: oh, and the XS_AUTOLOAD also calls a perl function to lookup an index, which it then caches in a c++ hash
+(12:32:47 PM) ewilhelm: obvious, right?
+(12:32:58 PM) dukeleto: selenamarie: ruh roh, your OH is being RT'ed, which then gets picked up by OH again. this should be fun
+(12:33:09 PM) selenamarie: LOL oh yes.
+(12:33:20 PM) selenamarie: i've already seen: "@reidab @selenamarie manpage. That sounds hot."
+(12:33:27 PM) selenamarie: and "@selenamarie that's so so wrong! #git"
+(12:33:59 PM) dukeleto: ewilhelm: stop the madness
+(12:34:13 PM) selenamarie: this really should be a trending topic.
+(12:35:18 PM) dukeleto: selenamarie: i agree. if you tweet something with an already trending topic with that, the spam bots will pick it up..... just sayin' .....
+(12:35:29 PM) selenamarie: LOL
+(12:36:07 PM) ewilhelm: Rebastiality Anonymous is now following you on Twitter!
+(12:36:34 PM) selenamarie: maybe #weightlesswednesday? 
+(12:40:43 PM) dukeleto: selenamarie: do it
+(12:40:50 PM) selenamarie: hahaha
+(12:40:52 PM) selenamarie: i don't have time!
+(12:40:55 PM) selenamarie: someone else needs to
+(12:41:43 PM) ewilhelm: is that where you jump off a bridge because twitter told you to?
+(12:48:29 PM) dukeleto: ewilhelm: everyone is doing it
+(12:49:07 PM) reidab: something like this should be the twitter background image for @rebastiality
+(12:49:07 PM) reidab: http://www.spearce.org/2007/07/ugly-gitk.gif
+(12:49:34 PM) dukeleto: reidab: do it
+(12:50:17 PM) selenamarie: reidab: LOL
+(12:50:31 PM) dukeleto: reidab: please troll @clonezone as well
+(12:51:04 PM) gorthx: dukeleto: LOL
+(12:51:14 PM) ewilhelm: hahaha.  GIT DOESN'T KILL HISTORY, PEOPLE KILL HISTORY!
+(12:51:29 PM) selenamarie: ewilhelm: that sounds like a really good first tweet.
+(12:51:33 PM) selenamarie: all caps, too.
+(12:51:52 PM) ewilhelm: svn-import kills history and eats babies.
+(12:52:04 PM) dukeleto: http://twitter.com/rebastiality doesn't work for me
+(12:52:12 PM) dukeleto: lets do it
+(12:52:13 PM) selenamarie: wtf people!
+(12:52:13 PM) purl: i think people is a person is smart; people are dumb panicky dangerous animals and you know it
+(12:52:13 PM) pdxbot: people are making shit up and pasting large swaths of the internals into their build code
+(12:52:26 PM) selenamarie: who's gonna pull the trigger? 
+(12:52:27 PM) ewilhelm: copy and paste kills history
+(12:52:29 PM) dukeleto: we can set it up with cotweet
+(12:52:33 PM) selenamarie: woo!
+(12:52:34 PM) selenamarie: cotweet!
+(12:52:36 PM) selenamarie: do it!
+(12:52:38 PM) reidab: already doing it
+(12:52:41 PM) reidab: with cotweet
+(12:52:47 PM) dukeleto: reidab: you da man
+(12:52:47 PM) purl: no, You the man!
+(12:52:59 PM) dukeleto: reidab: i will help troll, just give me access.
+(12:53:02 PM) ***dukeleto loves trolling
+(12:53:33 PM) ewilhelm: SPAGAIN REWRITES HISTORY!
+(12:53:41 PM) gorthx: Geez, I leave the chatroom for 10 minutes & look what happens.
+(12:53:58 PM) ewilhelm: gorthx, you're in a short position on twitter, right?
+(12:54:04 PM) gorthx: I agree with ewilhelm that is an appropriate first tweet.
+(12:54:06 PM) gorthx: I'm in a what?
+(12:54:26 PM) dukeleto: yes, +1 to that being the first tweet. if you can ~@clonezone, that would be even better
+(12:55:10 PM) gorthx: ewilhelm:  what does "short position" mean?  Is that a sports reference?
+(12:55:28 PM) ewilhelm: stock.  they would, of course, need to go public first.
+(12:55:36 PM) dukeleto: Git is like LSD for your version control. You can make people see pretty colors, even if they weren't there.
+(12:55:38 PM) ewilhelm: if only I could short them before that...
+(12:55:41 PM) dukeleto: gorthx: shorting the stock
+(12:56:19 PM) ewilhelm: if I could, we would absolutely have to unleash the catcam on that shit
+(12:57:11 PM) ewilhelm: #lickingmybutt would be the #1 trending topic
+(12:57:29 PM) dukeleto: ewilhelm: only in your world
+(12:57:43 PM) gorthx: O_o
+(12:57:43 PM) ewilhelm: followed by #watchingsquirrels and #nap
+(12:58:26 PM) dukeleto: git pull --hard master bater
+(12:59:57 PM) gorthx: dukeleto LOL
+(01:01:13 PM) ***gorthx is already following @rebastiality
+(01:03:45 PM) ewilhelm: PERL_SET_CONTEXT() ?
+(01:05:07 PM) dukeleto: ewilhelm: that sounds internal-ish
+(01:05:34 PM) ewilhelm: not in perlcall, so wtf?
+(01:05:58 PM) ewilhelm: PERL_SET_CONTEXT(PL_curinterp);
+(01:06:02 PM) dukeleto: ewilhelm: ack the perl5 git repo *cringes*
+(01:10:15 PM) reidab: dukeleto, gorthx: email addresses for cotweet?
+(01:11:34 PM) dukeleto: reidab: jaleto@gmail.com
+(01:12:02 PM) dukeleto: reidab: this is going to be fun >:)
+(01:12:11 PM) reidab: anyone else want access?
+(01:12:28 PM) dukeleto: reidab: rbuels probably should :)
+(01:12:39 PM) gorthx: gorthx@gmail.com
+(01:12:45 PM) rbuels: rbuels@gmail.com
+(01:12:51 PM) gorthx: oh, definitely rbuels.
+(01:12:52 PM) rbuels: what are we doing?
+(01:12:57 PM) gorthx: LOL
+(01:12:58 PM) reidab: just set the one like bio to: "Irreverent git advocacy, occasional trolling."
+(01:13:00 PM) dukeleto: You've been invited to the @rebastiality Twitter account at CoTweet
+(01:13:01 PM) ***rbuels just heard his name
+(01:13:06 PM) rbuels: um.
+(01:13:16 PM) rbuels: well.
+(01:13:33 PM) rbuels: perhaps i should use a different account.
+(01:13:37 PM) dukeleto: rbuels: we are spreading humorous chaos about git
+(01:13:42 PM) rbuels: robert.buels@gmail.com for this one  ;-)
+(01:14:05 PM) dukeleto: reidab: first tweet is all you
+(01:14:28 PM) gorthx: OMG who did the user icon?  That's great!
+(01:14:33 PM) reidab: me
+(01:14:40 PM) gorthx: reidab++
+(01:15:35 PM) dukeleto: i like that @rebastiality has "3 team members"
+(01:15:38 PM) rbuels: link to this art?
+(01:15:48 PM) rbuels: oh there it is
+(01:16:06 PM) dukeleto: reidab: you are awesome. nice profile pic
+(01:16:26 PM) dukeleto: this is the beginning of a beautiful thing
+(01:17:51 PM) rbuels: well, shenanigans anyway
+(01:17:51 PM) purl: I CALL SHENANIGANS!!!
+(01:19:36 PM) ewilhelm: next week:  IP over twitter
+(01:21:18 PM) dukeleto: don't forget to use the #git hash tag with @rebastiality
+(01:21:29 PM) reidab: good point
+(01:21:51 PM) ***selenamarie made first tweet
+(01:22:13 PM) dukeleto: selenamarie: nice work
+(01:23:37 PM) gorthx: So, 58 minutes from off-hand comment by ewilhelm to twitter trolly account.  Nice work, people.
+(01:24:26 PM) dukeleto: +1
+(01:24:26 PM) pdxbot: 1
+(01:24:26 PM) purl: 1
+(01:24:34 PM) ewilhelm: -1
+(01:24:34 PM) purl: -1
+(01:24:34 PM) pdxbot: -1
+(01:24:34 PM) purl: -1
+(01:24:34 PM) pdxbot: -1
+(01:24:34 PM) purl: -1
+(01:24:34 PM) pdxbot: -1
+(01:24:34 PM) pdxbot: -1
+(01:24:34 PM) purl: -1
+(01:24:34 PM) purl: -1
+(01:24:34 PM) pdxbot: -1
+(01:24:35 PM) pdxbot: -1
+(01:24:35 PM) pdxbot: -1
+(01:24:37 PM) pdxbot: -1
+(01:24:37 PM) pdxbot: -1
+(01:24:39 PM) pdxbot: -1
+(01:24:39 PM) pdxbot: -1
+(01:24:41 PM) purl: -1
+(01:24:41 PM) pdxbot: -1
+(01:24:41 PM) pdxbot: -1
+(01:24:41 PM) purl: -1
+(01:24:43 PM) purl left the room (Kicked by ewilhelm (purl)).
+(01:24:43 PM) pdxbot: -1
+(01:24:43 PM) pdxbot: -1
+(01:24:45 PM) purl [purl@irc.perl.org] entered the room.
+(01:24:52 PM) reidab: that was beautiful
+(01:25:02 PM) gorthx: eek.
+(01:25:23 PM) ***reidab thinks of people for @rebastiality to follow
+(01:26:06 PM) dukeleto: reidab: clonezone
+(01:26:11 PM) reidab: already done
+(01:26:25 PM) dukeleto: reidab: @nothingmuch
+(01:29:43 PM) selenamarie: samv maybe
+(01:29:59 PM) selenamarie: reidab: yeah @samv :)
+(01:30:14 PM) dukeleto: i am thinking naughty thoughts
+(01:30:45 PM) reidab: I think @rebastiality should tweet "I am thinking naughty thoughts." at least once a week
+(01:31:21 PM) dukeleto: reidab: done
+(01:34:54 PM) dukeleto: git cherry has so much potential. dare I?
+(01:35:14 PM) reidab: oh yes, but schedule it for a bit later
+(01:35:34 PM) dukeleto: scheduled tweets. oy vey
+(01:35:45 PM) gorthx: oh dear.
+(01:37:26 PM) dukeleto: ok, we have one scheduled
+(01:39:09 PM) reidab: nice. I think @rebastiality needs to offer many suggestions on the PROTIP theme
+(01:40:07 PM) dukeleto: indeed
+(01:41:53 PM) dukeleto: i think @rebastiality should post FUD about #svn as well, to offset all the FUD about git
+(01:42:15 PM) dukeleto: start the FUD machines!
+(01:44:41 PM) reidab is now known as reidab_lunch
+(01:44:47 PM) dukeleto: git furry --hard
+(01:45:37 PM) gorthx: dukeleto that's a great idea.
+(01:45:41 PM) gorthx: The FUD, I mean.
+(01:45:47 PM) dukeleto: gorthx: >:)
+(01:45:54 PM) ewilhelm: is there FUD about git?  All I hear is noise caused by anti-FUD.
+(01:45:54 PM) ***gorthx is not so certain about the furries.
+(01:46:20 PM) dukeleto: gorthx: yeah, our humor may be lost in twitterlation
+(01:46:35 PM) selenamarie: dukeleto: uber LOL re: your protip
+(01:47:14 PM) dukeleto: this requires trolling: http://twitter.com/cthulhim/status/4691116314
+(01:47:27 PM) selenamarie: lol
+(01:47:32 PM) dukeleto: we should troll all VCS's, not just svn
+(01:47:46 PM) selenamarie: is rebastiality following @samv yet?!?!
+(01:47:52 PM) selenamarie: can i do that in cotweet? 
+(01:48:47 PM) selenamarie: ahh yes.
+(01:48:49 PM) selenamarie: following samv
+(01:49:17 PM) selenamarie: ohh we should follow all the github people
+(01:50:29 PM) dukeleto: OH SHIT
+(01:52:45 PM) dukeleto: how do i follow people on cotweet?
+(01:52:50 PM) dukeleto: fucking web2.0
+(02:01:59 PM) dukeleto: i really need a "follow this person on every god damn social network" button
+(02:02:24 PM) dukeleto: the stalker 2.0 button, if you will
+(02:04:43 PM) dukeleto: http://twitter.com/rfabbri/status/4666869900  <-- trollable
+(02:07:52 PM) selenamarie: dukeleto: i'm so happy you've found a mission.
+(02:07:54 PM) selenamarie: this is awesome.
+(02:08:17 PM) dukeleto: how do I follow people on cotweet?
+(02:08:28 PM) selenamarie: i don't think we can...
+(02:10:42 PM) dukeleto: LAME
+(02:24:04 PM) dukeleto: TWITTER RUINED MY LIFE: Next on Geraldo
+(02:26:15 PM) reidab_lunch: you can
+(02:26:19 PM) reidab_lunch is now known as reidab
+(02:26:31 PM) reidab: you have to search for the person on the right-hand sidebar
+(02:26:34 PM) reidab: and then click their profile tab
+(02:26:40 PM) reidab: it's kind of lame, but it does work
+(02:27:04 PM) reidab: and yes, we should follow all the github people, and all the bitbucket people, and all the launchpad people...
+(02:28:05 PM) reidab: also of note, if you use the search feature inside of cotweet, you can ASSIGN tweets to people
+(02:28:57 PM) reidab: So it's easy to note tweets for later trolling
+(02:29:35 PM) ***reidab assigns the perforce tweet to dukeleto 
+(02:29:42 PM) dukeleto: reidab: i saw that. sweet!
+(02:30:11 PM) dukeleto: reidab: feel free to assign stuff to me
+(02:30:39 PM) dukeleto: we are now in the second level of RT's for @rebastiality
+(02:31:40 PM) dukeleto: ooh, there is a "search users" right popoup that lets you follow
+(02:32:05 PM) selenamarie: oooh...
+(02:32:11 PM) selenamarie: SECOND LEVEL OF RTS!
+(02:32:15 PM) reidab: YES
+(02:32:22 PM) selenamarie: ooh
+(02:32:26 PM) selenamarie: assigning tweets to people
+(02:32:32 PM) selenamarie: i wish i were as witty with protips
+(02:32:38 PM) selenamarie: maybe i will be this evening after a few cocktails.
+(02:33:12 PM) dukeleto: selenamarie: assign now, drink + troll later = for the win
+(02:33:26 PM) selenamarie: this is the most fun project ever.
+(02:33:32 PM) reidab: Tomorrow's hackfest should be ripe…
+(02:33:49 PM) reidab: assigned: "Petition going around at work to move from Perforce to SVN or Mercurial. Either one would be better. <crosses fingers>"
+(02:34:12 PM) dukeleto: LULZ
+(02:34:16 PM) dukeleto: i can't FUCKING WAIT
+(02:34:42 PM) confound: what's cotweet?
+(02:34:46 PM) dukeleto: i am following the github guys now
+(02:34:48 PM) ***confound looks
+(02:34:53 PM) dukeleto: confound: a way to troll collectively
+(02:35:20 PM) confound: there was a band named that back in the mid-90s right?
+(02:35:24 PM) confound: Collective Troll
+(02:35:35 PM) reidab: DVTC: Distributed Trolling Conspiracy System
+(02:35:39 PM) confound: I loved their stuff in high school.
+(02:35:41 PM) reidab: err, CVTS
+(02:35:43 PM) reidab: err
+(02:35:47 PM) reidab: DTCS
+(02:35:49 PM) reidab: ARRR
+(02:37:33 PM) reidab: moving from being more employee-like to more contractor-like at work means that I no longer feel bad about using this 30-inch display show search columns for every VCS I want to troll
+(02:37:48 PM) dukeleto: reidab: FUCK YEAH
+(02:37:48 PM) purl: I SAID FUCK YEAAAHHH!!!  (http://www.penny-arcade.com/comic/2005/04/22)
+(02:39:19 PM) dukeleto: here is our hall of fame: http://topsy.com/s?q=%23git&window=a
+(02:40:08 PM) reidab: it might be too cruel to troll this: "My first Delphi code just checked into Perforce"
+(02:40:22 PM) confound: haha
+(02:40:51 PM) gorthx: fish in a barrel
+(02:41:12 PM) selenamarie: i think i might start crying from laughing so much.
+(02:41:16 PM) reidab: CVS hard to search for. Stupid drugstores. 
+(02:41:32 PM) selenamarie: reidab: that should be a tweet.
+(02:41:40 PM) selenamarie: maybe even a PROTIP
+(02:42:14 PM) gorthx: That HAS to be a PROTIP.
+(02:42:14 PM) dukeleto: wholy shit, i have 5 tweets assigned to me already
+(02:42:20 PM) selenamarie: hahahaha
+(02:42:20 PM) purl: LOLCON 4 reached.
+(02:42:30 PM) gorthx: purl: botsnakc
+(02:42:30 PM) purl: gorthx: i'm not following you...
+(02:42:35 PM) gorthx: purl: botshack
+(02:42:35 PM) purl: botshack is probably where purl keeps her treats. or a little botplace where we can get together
+(02:42:37 PM) gorthx: DANG
+(02:42:45 PM) gorthx: purl: botsnack
+(02:42:45 PM) purl: :)
+(02:42:46 PM) pdxbot: thanks gorthx :)
+(02:42:47 PM) dukeleto: botslap
+(02:42:56 PM) gorthx: man purl is *ON IT* today.
+(02:43:16 PM) dukeleto: i loves the notes in cotweet #toomuchfun
+(02:43:20 PM) gorthx: so are these tweets stacked up somewhere to be released later?
+(02:43:41 PM) reidab: I wish there was an "assign to everyone" option
+(02:43:43 PM) dukeleto: gorthx: there is a list of assigned and scheduled tweets on the left hand panel of cotweet
+(02:44:11 PM) selenamarie: yeah or "upforgrabs"
+(02:44:15 PM) gorthx: oh nice
+(02:44:25 PM) ***gorthx was trying to get some Real Work(tm) done and wasn't paying attention
+(02:45:11 PM) dukeleto: gorthx: stop that nonsense. this is more important
+(02:45:32 PM) dukeleto: i am attempting to think of an amazing troll to the delphi tweet. this requires thinking hard
+(02:46:22 PM) reidab: !!!!!! "'git cherry-pick' saved my ass..."
+(02:46:33 PM) selenamarie: just found: "Set myself up with Git (revision control system). Excited to start playing with it."
+(02:46:43 PM) selenamarie: assigning
+(02:47:48 PM) dukeleto: please guys, don't assign *everything* to me ....
+(02:47:54 PM) selenamarie: lol
+(02:47:56 PM) selenamarie: sorry.
+(02:47:59 PM) selenamarie: you can assign some to me.
+(02:48:04 PM) dukeleto: luilz
+(02:48:25 PM) dukeleto: lulz, even
+(02:48:43 PM) ***selenamarie goes to write an actual SQL query for work
+(02:53:11 PM) dukeleto: 9 tweets assigned to me, what I have I gotten myself into....
+(02:55:04 PM) ***reidab replies to a comment about having to learn git
+(02:56:21 PM) selenamarie: i love Archive
+(02:57:06 PM) dukeleto: yeps, i just archived one that I replied to
+(02:57:18 PM) dukeleto: cotweet actually has a nice setup
+(02:58:40 PM) reidab: I really like it
+(02:58:54 PM) reidab: I have 8 accounts entered into it
+(02:59:58 PM) ***gorthx is looking for her original "git is like driving a Viper" tweet.
+(03:00:11 PM) ***reidab sets up @rebastiality to auto-follow those who follow it
+(03:00:19 PM) dukeleto: reidab: oh the joy
+(03:02:28 PM) gorthx: hahahaaa
+(03:02:36 PM) gorthx: we need to have *something* scheduled for 4:20 every day
+(03:02:45 PM) dukeleto: gorthx: lulz
+(03:08:13 PM) dukeleto: i am not sure I can troll the cherry-pick tweet without crossing a few lines of decency
+(03:09:33 PM) gorthx: pffft
+(03:09:35 PM) dukeleto: don't forget to troll the monotone peeps
+(03:09:46 PM) gorthx: "decent troll"
+(03:09:47 PM) confound: do they exist still?
+(03:09:55 PM) confound: monotone, not "decent troll"
+(03:10:59 PM) dukeleto: confound: there are people that are saying they love monotone on twitter, so, yes
+(03:11:46 PM) dukeleto: searching for "dcvs" comes up with good stuff
+(03:14:19 PM) dukeleto: selenamarie: just assigned you one
+(03:14:42 PM) selenamarie: lolz
+(03:15:29 PM) selenamarie: maybe "expose yourself to a real #dvcs! ditch the zero, and #git with a hero!"
+(03:15:30 PM) selenamarie: hahaha
+(03:16:24 PM) dukeleto: @rebastiality's favorite band: the #git cherry poppin' daddies
+(03:19:57 PM) selenamarie: dukeleto: schedule it!
+(03:20:12 PM) selenamarie: wth, API errors!
+(03:21:04 PM) gorthx: selenamarie:  I love it (#git with a hero)
+(03:26:03 PM) dukeleto: wow, this could go on indefinitely
+(03:27:01 PM) selenamarie: dukeleto: awesome re: cthulhim
+(03:29:32 PM) dukeleto: i try, i try
+(04:11:12 PM) reidab: I love getting "Jonathan Leto has followed up on a task you assigned." emails that contain trolling
+(04:18:16 PM) selenamarie left the room (quit: Quit: selenamarie).
+(04:19:18 PM) dukeleto: LULZ
+(04:20:20 PM) selenamarie [~selena@216-20-149-84-dsl.hevanet.com] entered the room.
+(04:20:21 PM) mode (+o selenamarie) by Player2
+(04:20:30 PM) selenamarie left the room (quit: ).
+(04:20:58 PM) reidab left the room (quit: Quit: reidab).
+(04:24:55 PM) ***ewilhelm looks up from c++ code... what did I miss?
+(04:25:56 PM) dukeleto: hah
+(04:26:15 PM) dukeleto: we are setting the twitterwebs aflame
+(04:27:34 PM) ***gorthx knows what's going on at the hackathon tomorrow night ;)
+(04:27:38 PM) gorthx: See y'all manana.
+(04:27:41 PM) gorthx left the room.
+(04:31:33 PM) soh left the room (quit: Quit: soh).
+(04:32:40 PM) dukeleto: peeps are starting to reply to @rebastiality, oh the joy
+(04:38:58 PM) duckyd: I'm now following.  Soon to regret it?
+(04:39:27 PM) dukeleto: duckyd: no, you will enjoy :)
+(04:39:44 PM) dukeleto: duckyd: you want in on the cotweet action?
+(04:39:57 PM) ***duckyd wanders off to google
+(04:40:16 PM) duckyd: no, not really :)
+(04:40:39 PM) duckyd: when my git-fu is stronger, and I've had a few beers, I'm sure I'll ask
+(04:41:53 PM) dukeleto: duckyd: we will be having a troll-fest tomorrow at PDX Hackathon :)
+(04:53:18 PM) duckyd: I'm sure :)
+(05:46:20 PM) theory left the room (quit: Quit: theory).
+(06:13:08 PM) selenamarie [~selena@basil.chesnok.com] entered the room.
+(06:13:09 PM) mode (+o selenamarie) by Player2
+(06:14:11 PM) selenamarie: dukeleto: lolz on the upcoming tweet.
+(06:32:44 PM) ewilhelm: dukeleto, how do I get the equivelant of my @stuff = @_ in XS?
+(06:33:18 PM) ewilhelm: equivalent, even
+(06:34:04 PM) ewilhelm: sv_mortalcopy()?
+(06:54:20 PM) Exodist left the room (quit: Quit: Leaving).
+(07:20:02 PM) selenamarie: o c'mon people. i need a few hi-5s for that last rebastiality tweet.
+(07:27:21 PM) Exodist [~Exodist@75-148-94-149-Oregon.hfc.comcastbusiness.net] entered the room.
+(08:24:55 PM) notbenh_ [~notbenh@c-67-160-167-165.hsd1.or.comcast.net] entered the room.
+(08:39:33 PM) dukeleto: ewilhelm: are you talking about popping values off the stack in XS?
+(08:39:58 PM) dukeleto: ewilhelm: you want the args to a function in @_ in XS ?
+(08:40:44 PM) dukeleto: we are getting backlash already. lulz
+(08:41:26 PM) ewilhelm: backlash?
+(08:41:26 PM) purl: backlash is funny.  "Yahoo's going to make it suck... because I expect it to make it suck.  I'm deleting my account now.  Love, /.'er"
+(08:42:11 PM) ewilhelm: dukeleto, I ended up making a SV ** mystack = new SV*[items];, then mystack[i] = sv_mortalcopy(ST(wasitems-items+i));
+(08:42:29 PM) dukeleto: ewilhelm: whoa
+(08:42:46 PM) ewilhelm: the stack of args was being passed to something that wanted to modify its values in-place, which created "attempt to modify read-only value"
+(08:43:14 PM) ewilhelm: dukeleto, you know a neater way?
+(08:48:29 PM) dukeleto: ewilhelm: there are macros to fiddle with the stack
+(08:49:03 PM) dukeleto: ewilhelm: what you are doing works, but may cause things to go SHITPOCALYPSE in certain edge cases/platforms/cycles of the moon
+(08:50:32 PM) ewilhelm: dukeleto, there are macros to copy the entire stack by-value?
+(08:50:48 PM) ewilhelm: I am calling ST() you know
+(08:50:53 PM) dukeleto: ewilhelm: see what perlhack and perlapi says
+(08:51:08 PM) ewilhelm: they told me to ask you
+(08:51:13 PM) dukeleto: ewilhelm: yes, I see that, but there are also some other macros that you may need to call before and after that code
+(08:51:16 PM) dukeleto: fuck me
+(08:51:19 PM) dukeleto: who told you to ask me?
+(08:51:42 PM) ewilhelm: before and after?  nah
+(08:53:04 PM) ewilhelm: wasitems is just a bit about that I had some stuff already off the front of the stack.  would be nice if I could get at the last N (ala having done shift)
+(08:53:38 PM) ewilhelm: even the XS declaration (foo, ...) didn't do much for me cause ST(1) is still the start of ...
+(09:19:35 PM) ewilhelm: hmm, code changes the second time you call it... back away...
+(09:22:50 PM) ewilhelm: oh crap, that was always cached before I started changing things, so probably is something seriously wrong but older than dirt
+(09:46:49 PM) dukeleto: ewilhelm: you are in the dark recesses of XS-land
+(09:47:09 PM) dukeleto: Will our Hero find his way out? Stay Tuned to #pdx.pm !

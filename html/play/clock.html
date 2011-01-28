@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   <title>clock play</title>
+   <script type='text/javascript' src='moo.js'></script>
+   <script type='text/javascript'>
+      var h = new Hash({});
+      var s = -20;
+      for(i=0;i<10;i++) {
+         a = i * s;
+         b = (i + 1) * s;
+         if ( b == ( 10 * s ) ) { b = 0 }
+         h.set(i, [a,b]);
+      }
+
+      function zpad(n) { return (n<10) ? "0"+n : ""+n ; }
+
+      function showSec() {
+         window.today=new Date();
+         var seconds = zpad(window.today.getSeconds());
+         poke('second1',seconds[0]);
+         poke('second2',seconds[1]);
+      }
+      function showMin() {
+         var minutes = zpad(window.today.getMinutes()).split('');
+         poke('minute1',minutes[0]);
+         poke('minute2',minutes[1]);
+      
+      }
+      function showHour() {
+         var hours   = zpad(window.today.getHours()).split('');
+         poke('hour1',hours[0]);
+         poke('hour2',hours[1]);
+      }
+
+      window.addEvent('load', function(){
+         window.today=new Date();
+         window.opts = new Hash( 
+            { wait: false, duration:250, transition: Fx.Transitions.Quad.easeInOut } 
+         );
+         window.hour1_style   = new Fx.Style('hour1','margin-top', window.opts );
+         window.hour2_style   = new Fx.Style('hour2','margin-top', window.opts );
+         window.minute1_style = new Fx.Style('minute1','margin-top', window.opts );
+         window.minute2_style = new Fx.Style('minute2','margin-top', window.opts );
+         window.second1_style = new Fx.Style('second1','margin-top', window.opts );
+         window.second2_style = new Fx.Style('second2','margin-top', window.opts );
+
+         showHour();
+         window.x_h = setInterval('showHour()',50000);
+         showMin();
+         window.x_m = setInterval('showMin()',1000);
+         showSec();
+         window.x_s = setInterval('showSec()',500);
+      });
+
+      function poke(e,n) {
+         window.eval(e+'_style').start(window.h.get(n));
+      }
+
+   </script>
+   <style type='text/css'>
+      body {
+         font-size:20px;
+         color:#FFF;
+         background-color:#000017;
+         font-family:Futura,sans;
+      }
+      #line {
+         width:99%;
+         height:0px;
+         position:absolute;
+         top:50%;
+         left:50%;
+         margin-left:-49.5%;
+         border-bottom:1px solid #454556;
+      }
+      #current {
+         position:absolute;
+         top:50%;
+         margin-top:-0.7em;
+         left:50%;
+         margin-left:-23ex;
+      }
+      #clock {
+         position:absolute;
+         top:50%;
+         left:60%;
+         height:20px;
+         margin-top:-0.7em;
+         width:140px;
+         text-align:center;
+      }
+      .nums , .punc {
+         color:#FFF;
+         float:left;
+         position:relative;
+      }
+      .nums div {
+         width:20px;
+         height:20px;
+         overflow:hidden;
+         overflow:visible;
+      }
+      .punc {
+         margin-top:-4px;
+         width:10px;
+      }
+   </style>
+</head>
+<body>
+   <div id='line'></div>
+   <div id='current'>the current time is</div>
+   <div id='clock'>
+      <div id='hour1' class='nums'>
+         <div>0</div> <div>1</div> <div>2</div>
+      </div>
+      <div id='hour2' class='nums'>
+         <div>0</div> <div>1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div> <div>6</div> <div>7</div> <div>8</div> <div>9</div>
+      </div>
+      <div class='punc'>:</div>
+      <div id='minute1' class='nums'>
+         <div>0</div> <div>1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div>
+      </div>
+      <div id='minute2' class='nums'>
+         <div>0</div> <div>1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div> <div>6</div> <div>7</div> <div>8</div> <div>9</div>
+      </div>
+      <div class='punc'>:</div>
+      <div id='second1' class='nums'>
+         <div>0</div> <div>1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div>
+      </div>
+      <div id='second2' class='nums'>
+         <div>0</div> <div>1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div> <div>6</div> <div>7</div> <div>8</div> <div>9</div>
+      </div>
+   </div>
+</body>
+</html>

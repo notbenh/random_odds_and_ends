@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+   <title>date play</title>
+   <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+   <script type="text/javascript">
+      function zpad(n) {
+         return (n<10) ? "0"+n : n ;
+      }
+      function showTime() {
+
+         document.body.style.fontSize = ( document.body.clientWidth / ( document.body.clientWidth / document.body.clientHeight) )/ 2;
+
+         var today=new Date();
+         document.getElementById('hour_in').innerHTML = zpad( today.getHours() );
+         document.getElementById('minute_in').innerHTML = zpad( today.getMinutes() );
+         document.getElementById('second_in').innerHTML = zpad( today.getSeconds() );
+         document.getElementById('month_in').innerHTML = zpad( today.getMonth() + 1 );
+         document.getElementById('day_in').innerHTML = zpad( today.getDate() );
+         document.getElementById('year_in').innerHTML = zpad( today.getYear() - 100 );
+
+         document.getElementById('txt').innerHTML = 'hello';
+      }
+   </script>
+   <style type='text/css'>
+      /* --------- basis -------- */
+      body {
+         background-color:#3F0000;
+         background-color:#5C0000;
+         margin:0px;
+         padding:0px;
+         font-size:100px; /* DEFAULT */
+      }
+
+      /* --------- common -------- */
+      div.out {
+         float:left;  
+         height:100%;
+         width:25%;
+         overflow:hidden;
+      }
+      div.in {
+         background-color:#7F0000;
+         color:#FFF;
+         margin-top:-20%;
+         margin-left:-20%;
+      }
+      div.left {
+         float:left;
+      }
+      div.right {
+         float:right;
+      }
+
+      /* --------- center -------- */
+      div#time, div#date {
+         width:99%;
+         height:50%;
+         position:absolute;
+         left:50%;
+         margin-left:-49.5%;
+      }
+      div.center {
+         position:absolute;
+         right:10%;
+         left:10%;
+      }  
+      div#time div.center {
+         top:50%;
+         bottom:0px;
+      }
+      div#date div.center {
+         top:0px;
+         bottom:50%;
+      }
+
+      /* --------- big -------- */
+      div.big {
+         width:50%;
+         height:150%;
+         background-color:#000;
+         left:25%;
+         position:absolute;
+      }
+      div.big div.in {
+         font-size:200%;
+      }
+      div#time div.big {
+         top:-50%;/
+         border:1px solid #000;
+      }
+      div#date div.big {
+         top:0px;
+      }
+
+      /* --------- time -------- */
+      div#time  {
+         top:0px;
+      }
+
+      /* --------- date -------- */
+      div#date {
+         bottom:0px;
+      }
+
+      /* --------- lines common -------- */
+      div.line {
+         z-index:1;
+         position:absolute;
+         height:0px;
+         width:0px;
+      }
+      div.h {
+         border-top:1px solid #FFF;
+      }
+      div.v {
+         border-left:1px solid #FFF;
+      }
+
+      /* --------- lines specific -------- */
+      div#horz {
+         top:50%;
+         width:100%;
+      }
+
+      div#lvcap , div#rvcap {
+         height:80%;
+         top:10%;
+      }
+      div#lvcap {
+         left:10.4%;
+      }
+      div#rvcap {
+         right:10.4%;
+      }
+
+      div#lvsplit , div#rvsplit {
+         height:100%;
+         top:0%;
+      }
+      div#lvsplit {
+         left:30.1%;
+      }
+      div#rvsplit {
+         right:30.1%;
+      }
+
+      div#thcap , div#bhcap {
+         width:60%;
+         left:20%;
+      }
+      div#thcap {
+         top:12.2%;
+      }
+      div#bhcap {
+         bottom:12.2%;
+      }
+
+      div#ltsplit , div#lbsplit , div#rtsplit , div#rbsplit {
+         width:25.1%;
+      }
+      div#ltsplit , div#lbsplit { 
+         left:5%;
+      }
+      div#rtsplit , div#rbsplit {
+         right:5%;
+      }
+      div#ltsplit , div#rtsplit { 
+         top:25%;
+      }
+      div#lbsplit , div#rbsplit { 
+         bottom:25%;
+      }
+
+
+   </style>
+
+</head>
+<body onload="showTime();setInterval('showTime()',500);">
+<div id='txt' style='postition:absolute;top:1px;left:1px;width:100px;height:20px;border:1px solid #FFF;'></div>
+<!--
+<div id='txt'></div>
+-->
+
+      <div id='time'>
+         <div class='center'>
+            <div class='out left'>
+               <div id='hour_in' class='in'></div>
+            </div>
+            <div class='out big'>
+               <div id='minute_in' class='in'></div>
+            </div>
+            <div class='out right'>
+               <div id='second_in' class='in'></div>
+            </div>
+         </div>
+      </div>
+      <div id='date'>
+         <div class='center'>
+            <div class='out left'>
+               <div id='month_in' class='in'></div>
+            </div>
+            <div class='out big'>
+               <div id='day_in' class='in'></div>
+            </div>
+            <div class='out right'>
+               <div id='year_in' class='in'></div>
+            </div>
+         </div>
+      </div>
+      <div id='lvcap' class='line v'></div>
+      <div id='thcap' class='line h'></div>
+      <div id='lvsplit' class='line v'></div>
+      <div id='ltsplit' class='line h'></div>
+      <div id='lbsplit' class='line h'></div>
+      <div id='horz' class='line h'></div>
+      <div id='rtsplit' class='line h'></div>
+      <div id='rbsplit' class='line h'></div>
+      <div id='rvsplit' class='line v'></div>
+      <div id='bhcap' class='line h'></div>
+      <div id='rvcap' class='line v'></div>
+   
+</body>
+</html>
