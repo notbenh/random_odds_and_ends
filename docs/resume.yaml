@@ -1,48 +1,45 @@
 ---
-Education :
+me :
+   name : ben hengst
+   location : Portland OR
+   email : benh@develonizer.com
+   phone : 503.799.2364
+education :
    - name : The Art Institute of Portland
      location : Portland, OR
      graduated : 2005
      degree: B.S., Multimedia and Web Design
-Experence :
-   - name :Powells.com
+experence :
+   - name : Powells.com
      location : Portland, OR
      title: Developer
+     type : paid - full time 
      duration: 2006-current
      discription: 
        - I did stuff
        - I did more stuff
+     skills : 
+       - perl
+       - mysql 
+       - mod_perl 
+   - name : 
+      
 
 
      
    
-
-ResNet Development Labs
-Columbus, OH 2000 - 2003
-Creative Director and Developer
-Developed management software for The Ohio State University.
-Designed publications for RNDL, including logos, shirts, and flyers.
-
-KBOO Technology Committee
-
-Led training for the use and application of HBX site analytics.
-Managed developer relations.
-
 
 Summit Projects
 HoodRiver, OR 2005 - 2006
 Lead Developer and Technical Producer
 Led team to implement Atomz/WSS Commerce and Search solution.
 Orchestrated the push for W3C standards compliant code.
+Led training for the use and application of HBX site analytics.
+Managed developer relations.
 
-Portland, OR
-Lead Techical Developer
-Participated in concept development for upgrading kboo.fm.
-Developed solutions for high-volume calendar applications.
-
-Portland, OR 2005
 
 Portland Trail Blazers
+Portland, OR 2005
 Design Intern
 Redesigned and developed Flash header.
 Built a collection of online interactive games.
@@ -57,8 +54,22 @@ Lead Developer
 Designed the framework for the improvement of an online Encyclopedia.
 Assist in conceiving and building a child-friendly user interface.
 Build and maintained templates for a content management system.
+
+
+
+ResNet Development Labs
+Columbus, OH 2000 - 2003
+Creative Director and Developer
+Developed management software for The Ohio State University.
+Designed publications for RNDL, including logos, shirts, and flyers.
+
+
+
+
 Software Experience
 Platform Experience
+
+
 
 PHP
 
@@ -74,8 +85,6 @@ W3C Compliant CSS
 
 Windows
 
-p 503.799.2364
-e benh@develonizer.com
 
 Linux/Unix
 
