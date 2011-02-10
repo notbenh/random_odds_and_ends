@@ -38,19 +38,21 @@ education :
      location : Portland, OR
      duration: 2003 - 2005
      degree: B.S., Multimedia and Web Design
-   - name : The Ohio State University Edit
+   - name : The Ohio State University 
      location : Columbus, OH
      duration: 1997 – 2003
      degree: B.F.A.  Painting and Drawing (non complete)
-experence :
+experience :
+   - name : CPAN
+     title: Contributor
+     type : volunteer
+     duration: 2007 – Present 
    - name : Powells.com
      location : Portland, OR
-     title: Developer
+     title: Perl Developer
      type : paid - full time 
-     duration: 2006-current
-     discription: 
-       - I did stuff
-       - I did more stuff
+     duration: September 2006 – February 2011 (4 years 6 months)
+     discription: As the resident tool builder I was in charge of constructing solutions to allow the rest of the team to be agile and efficient. I am most proud of the construction of a routes based micro web framework written in Moose and served via mod_perl, similar in concept to a Dancer or Sinatra. Other major development has included Google Books integration, schema redesigns, ETL for publisher feeds, rebuild of our search, decision framework used for Online Buy Back, as well as the creation of many other modules to standardize work flow patterns around the office.
      skills : 
        - perl
        - mysql 
@@ -60,11 +62,7 @@ experence :
      duration: 2005 - 2006
      title : Lead Developer and Technical Producer
      type : paid - full time 
-     discription: 
-       - Led team to implement Atomz/WSS Commerce and Search solution.
-       - Orchestrated the push for W3C standards compliant code.
-       - Led training for the use and application of HBX site analytics.
-       - Managed developer relations.
+     discription: Built a translation layer for user input to allow for searchability for a client using perl. Coded cross browser complient HTML and CSS from Photoshop Comps for such clients as Norwegian Cruise Lines, KEEN, and Nike Golf.
      skills : 
        - perl
        - html/css
@@ -74,6 +72,7 @@ experence :
      duration : 2005 - 2006
      title : Lead Developer
      type : volunteer
+     discription: 
        - Selected and implemented site-search solution.
        - Designed the framework for the improvement of an online Encyclopedia.
        - Assist in conceiving and building a child-friendly user interface.
@@ -82,48 +81,25 @@ experence :
        - perl
        - html/css
        - project management
-
-
-
-
-
-
-
-
-Experience + Add a position
-
-Contributor
-CPAN
-Non-Profit; Computer Software industry
-2007 – Present (4 years)
-
-Perl Developer
-Powells.com
-Privately Held; Retail industry
-September 2006 – February 2011 (4 years 6 months)
-
-As the resident tool builder I was in charge of constructing solutions to allow the rest of the team to be agile and efficient. I am most proud of the construction of a routes based micro web framework written in Moose and served via mod_perl, similar in concept to a Dancer or Sinatra. Other major development has included Google Books integration, schema redesigns, ETL for publisher feeds, rebuild of our search, decision framework used for Online Buy Back, as well as the creation of many other modules to standardize work flow patterns around the office.
-
-
-Perl and Web Developer
-Summit Projects
-Privately Held; Internet industry
-July 2005 – June 2006 (1 year)
-
-Built a translation layer for user input to allow for searchability for a client using perl. Coded cross browser complient HTML and CSS from Photoshop Comps for such clients as Norwegian Cruise Lines, KEEN, and Nike Golf.
-
-Web Intern
-Portland Trail Blazers
-Privately Held; Sports industry
-2005 – 2005 (less than a year)
-
-Developed Flash based games for fans.blazers.com as well as edited promotional images for the Blazers primary website.
-
-PHP Developer
-ResNet OSU Development Labs
-Information Technology and Services industry
-2001 – 2003 (2 years)
-
+   - name : Portland Trail Blazers
+     location : Portland, OR
+     duration : 2005 – 2005 
+     title : Web Intern
+     type : paid - part time
+     discription: Developed Flash based games for fans.blazers.com as well as edited promotional images for the Blazers primary website.
+     skills : 
+       - Photoshop
+       - Flash
+       - html/css
+   - name : ResNet OSU Development Labs
+     location : Columbus, OH
+     duration : 2001 – 2003 
+     title : PHP Developer
+     type : paid - part time
 Worked with students to build an office management suite that included a schedule manager and a knowledge base for common issues. The work was done as a PHP web application backed by MySQL with perl used for system administration tasks.
-
+     skills : 
+       - PHP
+       - MySQL
+       - html/css
+       - perl
 
