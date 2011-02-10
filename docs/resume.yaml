@@ -4,11 +4,44 @@ me :
    location : Portland OR
    email : benh@develonizer.com
    phone : 503.799.2364
+   summary : I am a developer with a strong desire to put the right tools in the hands of the right users, allowing for successful solutions to the problems at hand.
+   links :
+      - LinkedIn : http://www.linkedin.com/in/notbenh
+      - github : https://github.com/notbenh
+      - CPAN : http://search.cpan.org/~notbenh/
+      - twitter: http://twitter.com/#!/notbenh
+   interests :
+      - perl
+      - redis
+      - git
+      - dynamic development languages
+      - user centered design
+      - web interfaces
+      - search
+      - photography
+   groups :
+      - pdx.pm :
+         - member
+         - speaker
+      - PDX weekly Hackathon :
+         - member 
+         - former orginizer
+      - PDX Critique (defunct) :
+         - co-creator
+      - Open Source Bridge :
+         - technical project manager (first year)
+         - participant (second year)
+      - Bar Camp Portland :
+         - speaker
 education :
    - name : The Art Institute of Portland
      location : Portland, OR
-     graduated : 2005
+     duration: 2003 - 2005
      degree: B.S., Multimedia and Web Design
+   - name : The Ohio State University Edit
+     location : Columbus, OH
+     duration: 1997 – 2003
+     degree: B.F.A.  Painting and Drawing (non complete)
 experence :
    - name : Powells.com
      location : Portland, OR
@@ -49,3 +82,48 @@ experence :
        - perl
        - html/css
        - project management
+
+
+
+
+
+
+
+
+Experience + Add a position
+
+Contributor
+CPAN
+Non-Profit; Computer Software industry
+2007 – Present (4 years)
+
+Perl Developer
+Powells.com
+Privately Held; Retail industry
+September 2006 – February 2011 (4 years 6 months)
+
+As the resident tool builder I was in charge of constructing solutions to allow the rest of the team to be agile and efficient. I am most proud of the construction of a routes based micro web framework written in Moose and served via mod_perl, similar in concept to a Dancer or Sinatra. Other major development has included Google Books integration, schema redesigns, ETL for publisher feeds, rebuild of our search, decision framework used for Online Buy Back, as well as the creation of many other modules to standardize work flow patterns around the office.
+
+
+Perl and Web Developer
+Summit Projects
+Privately Held; Internet industry
+July 2005 – June 2006 (1 year)
+
+Built a translation layer for user input to allow for searchability for a client using perl. Coded cross browser complient HTML and CSS from Photoshop Comps for such clients as Norwegian Cruise Lines, KEEN, and Nike Golf.
+
+Web Intern
+Portland Trail Blazers
+Privately Held; Sports industry
+2005 – 2005 (less than a year)
+
+Developed Flash based games for fans.blazers.com as well as edited promotional images for the Blazers primary website.
+
+PHP Developer
+ResNet OSU Development Labs
+Information Technology and Services industry
+2001 – 2003 (2 years)
+
+Worked with students to build an office management suite that included a schedule manager and a knowledge base for common issues. The work was done as a PHP web application backed by MySQL with perl used for system administration tasks.
+
+
