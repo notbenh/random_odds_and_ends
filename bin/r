@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+die qq{This is not a rails app!\n} unless -r q{./script/rails};
+$|++;
+exec './script/rails', @ARGV;
