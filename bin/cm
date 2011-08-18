@@ -10,7 +10,7 @@ cm My/Module.pm My::Module::Helper ...
 
 
 $|++;
-system( q{/usr/local/bin/cpanm},
+system( q{/usr/bin/env cpanm},
         qw{--skip-installed}, 
         qw{--sudo}, 
         map { s/\.pm$//; s/\//::/g; $_; } @ARGV  # take paths (My/Module.pm) or modules (My::Module), convert to module format
