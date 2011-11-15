@@ -1,0 +1,6 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use Cwd;
+
+system sprintf q{sudo rm /var/www && sudo ln -s %s /var/www && sudo /etc/init.d/lighttpd restart}, getcwd;
