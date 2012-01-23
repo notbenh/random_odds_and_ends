@@ -15,6 +15,18 @@ shim (ssh internet mount) is just a simple way to manage a bunch of sshfs remote
   ... hack ...
   shim umount site
 
+=head2 add
+
+  shim add $NAME $REMOTE $MOUNT
+
+=head2 mount
+
+  shim mount $NAME
+
+=head2 umount
+
+  shim umount $NAME
+
 =cut
 
 my $shim = Shim->new;
