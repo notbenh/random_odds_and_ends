@@ -1,0 +1,62 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use YAML;
+
+=head1 WHAT? 
+
+shim (ssh internet mount) is just a simple way to manage a bunch of sshfs remotes in a simple clean manner with out having to bother with futzing with fstab. 
+
+=head1 Useage
+
+  shim add site user@site.com:~/project ~/remotes/site/project
+  shim mount site
+  cd ~/remotes/site/project
+  ... hack ...
+  shim umount site
+
+=cut
+
+my $shim = Shim->new;
+my $cmd = shift @ARGV;
+die qq{SHIM ERROR: $cmd is an unknown action\n} unless $shim->can($cmd);
+$shim->$cmd(@ARGV);
+
+BEGIN {
+  package Shim;
+  use YAML qw{LoadFile DumpFile};
+  use File::Path qw(make_path);
+
+  sub new { 
+    my $class = shift;
+    my $file  = join '/', $ENV{HOME}, q{.shim.yaml};
+    qx{echo '---' >> $file && chmod 666 $file} unless -f $file; # create config if one not found
+    die 'config file unreadable' unless -r $file;
+    return bless { file => $file
+                 , conf => LoadFile($file)
+                 }, $class ;
+  }
+
+  sub add {
+    my ($self, $name, $remote, $mount) = @_;
+    $self->{conf}->{$name} = {remote => $remote, mount => $mount};
+    DumpFile($self->{file}, $self->{conf});
+  }
+  
+  sub mount {
+    my ($self,$name) = @_;
+    die qq{name $name not found in config} unless $self->{conf}->{$name};
+    make_path($self->{conf}->{$name}->{mount}) unless -d $self->{conf}->{$name}->{mount};
+    my $cmd = sprintf q{sshfs -o idmap=user %s %s}, map{ $self->{conf}->{$name}->{$_} } qw{remote mount};
+    qx{$cmd};
+  }
+
+  sub umount {
+    my ($self,$name) = @_;
+    die qq{name $name not found in config} unless $self->{conf}->{$name};
+    my $cmd = sprintf q{fusermount -u %s}, $self->{conf}->{$name}->{mount};
+    qx{$cmd};
+  } 
+
+  1;
+}
