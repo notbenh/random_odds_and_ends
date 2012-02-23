@@ -3,6 +3,8 @@ use strict;
 use warnings;
 use YAML;
 
+die qx{perldoc $0} unless @ARGV;
+
 =head1 WHAT? 
 
 shim (ssh internet mount) is just a simple way to manage a bunch of sshfs remotes in a simple clean manner with out having to bother with futzing with fstab. 
