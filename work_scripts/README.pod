@@ -1,0 +1,45 @@
+Ok so these are just a few little wrappers around the pasteboard stuff. 
+
+=head1 Background 
+
+"My" machine is running linux, it's what I often do most of my grading on. The "work" machine is a mac, I've been moving to it, but old habits die hard.
+
+=head1 Assumptions 
+
+You will want to set up your env to match the student as best as possible, get any data/source files that they will be required to work from. Get them in the right location on disk (in my case /software).
+For me I also have php and perl installed on both of my machines, you will want to install anything that the student will be assumed to have installed. 
+
+=head1 Workflow
+
+While I'm grading, I'll copy the students file(s), so lets say they have script.pl and data.csv :
+
+  select data.csv & copy 
+  switch to terminal in ~/perl
+  > p data.csv
+  or if I'm no the linux machine
+  > lp data.csv 
+  paste the selected file in to /tmp/data.csv
+  switch back to nano
+  select script.pl & copy
+  switch back to terminal
+  > stud
+  or if I'm on my linux machine
+  > lstud
+  to paste selected file in to /tmp and then run said file
+  if all goes well, I switch back to nano and supply comments
+  other wise seems there's an error
+  > v
+  to kick open file in vim
+  make any edits needed
+  > r
+  run file, see if my edits fixed things
+  based on edits made write up comments for student
+
+=head1 DOCS 
+
+  p $file : paste selection to $file in /tmp (lp for linux)
+  stud    : paste selection to a known file and then run it (lstud for linux)
+  v       : kick open known file (from stud) with vim
+  r       ; run known file (from stud)
+
+=head1 TODO
