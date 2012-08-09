@@ -43,3 +43,5 @@ While I'm grading, I'll copy the students file(s), so lets say they have script.
   r       ; run known file (from stud)
 
 =head1 TODO
+
+  I really should have p and stud check to see what machine I am on, it gets annoying at times.
