@@ -1,0 +1,2 @@
+#!/bin/sh
+rm student.php && xclip -o >> student.php && php exp.php && echo "\n\n----------\n" && php student.php && echo "\n\n";

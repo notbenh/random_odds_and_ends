@@ -1,0 +1,6 @@
+#!/usr/bin/env perl
+use strict;
+use warnings; 
+
+my $cmd = join ' ', qw{perl /tmp/student.pl}, @ARGV;
+print qx{ xclip -o > /tmp/student.pl && $cmd };
