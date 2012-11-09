@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- local dev so // trick does not work =( -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script type='text/javascript'>
+    $(document).ready(function(){
+      $('select.multi option').click(function(){
+        // find all the options in the same select group that 
+        // are not already selected and have 'me' as there multi_parent
+        $(this).closest('select.multi').not(':selected').find('option[multi_parent=' + $(this).attr('value') + ']').each(function(){
+          $(this).attr('selected', 'selected');
+          // now we trip the click even again, it's a bit of overkill
+          // but it looks like jquery does not have a selected event
+          // thus this is the only thing I can think of that will
+          // allow for nested structures to follow children
+          $(this).click(); 
+        });
+        // if we do not want the top selection selected (multi_selected=0)
+        if($(this).attr('multi_selected') == 0 ) {
+          $(this).removeAttr('selected');
+        }
+      })
+    });
+  </script>
+</head>
+<body>
+
+
+<select class='multi' multiple size=10>
+<option multi_selected=0 value='top1'>top1</option>
+  <option multi_parent='top1' value='top1_sub1'>- top1:sub1</option>
+  <option multi_parent='top1' value='top2_sub2'>- top1:sub2</option>
+  <option multi_parent='top1' value='top1_sub3'>- top3:sub3</option>
+    <option multi_parent='top1_sub3' value='top2_sub3_sub1'>&nbsp; - top1:sub3:sub1</option>
+    <option multi_parent='top1_sub3' value='top2_sub3_sub2'>&nbsp; - top1:sub3:sub2</option>
+    <option multi_parent='top1_sub3' value='top2_sub3_sub3'>&nbsp; - top1:sub3:sub3</option>
+<option multi_children='top2' value='top2'>top2</option>
+  <option value='top2_sub1'>- top2:sub1</option>
+<option value='top3'>top3</option>
+</select>
+
+</body>
+</html>
