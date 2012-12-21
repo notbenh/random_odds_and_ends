@@ -44,7 +44,9 @@ BEGIN {
   sub new { 
     my $class = shift;
     my $file  = join '/', $ENV{HOME}, q{.shim.yaml};
-    qx{echo '---' >> $file && chmod 666 $file} unless -f $file; # create config if one not found
+    do{ print qq{creating config file\n};
+        qx{echo '---' >> $file && chmod 666 $file};
+      } unless -f $file; # create config if one not found
     die 'config file unreadable' unless -r $file;
     return bless { file => $file
                  , conf => LoadFile($file)
@@ -71,6 +73,11 @@ BEGIN {
     my $cmd = sprintf q{fusermount -u %s}, $self->{conf}->{$name}->{mount};
     qx{$cmd};
   } 
+
+  sub conf {
+    use Data::Dumper;
+    print Dumper( shift->{conf} );
+  }
 
   1;
 }
