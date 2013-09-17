@@ -1,0 +1,191 @@
+#!/usr/bin/perl 
+use strict;
+use warnings;
+use Util::Log;
+use YAML;
+use File::Find::Rule;
+use Carp::Assert::More;
+use Getopt::Std;
+use Data::Manip qw{:all};
+
+=head1 USEAGE
+
+dep $path
+
+-B : [string] will return a CPAN bundle with the given name with all use and extends that were found on CPAN
+-V : [string] will set the version for the bundle DEFAULT '0.01' {only used if -B is given}
+
+=cut
+
+
+our %opts;
+getopts('B:V:', \%opts);  # options as above. Values in %opts
+$opts{V} ||= '0.01';
+
+#---------------------------------------------------------------------------
+# !!! DO STUFF !!!
+#---------------------------------------------------------------------------
+my @deps;
+for my $file ( find_files(@ARGV || '.') ) {
+   push @deps, get_hash_of_info_from_filename($file)
+      if length $file;
+}
+
+if ($opts{B} ) {
+   require LWP::Simple;
+   LWP::Simple->import;
+   my $deps = {};
+   # pick apart the hash and only get the items that -might- be on CPAN
+   for (map{ my ($d) = values %$_; map{@{$d->{$_}}} grep{ref($d->{$_}) eq 'ARRAY'} qw{use extends with}} @deps) {
+      next if $deps->{$_}; # we've already done this one
+      # look to see if its a CPAN module (see for more info http://cpanmetadb.appspot.com/)
+      my $url = sprintf q{http://cpanmetadb.appspot.com/v1.0/package/%s}, $_;
+
+      # store off with key as package for lookup we sort it out later
+      $deps->{$_} = get($url) ? 'CPAN' : 'LOCAL';
+   }
+
+   printf q{package %s;
+
+$VERSION = '%s';
+
+1;
+
+__END__
+
+=head1 NAME
+
+%1$s : a collection of CPAN modules
+
+=head1 SYNOPSIS
+
+perl -MCPAN -e 'install %1$s'
+
+=head1 CONTENTS
+
+%s
+}, $opts{B}, $opts{V}, join qq{\n\n}, map{sprintf q{%s undef}, $_} grep{$deps->{$_} eq 'CPAN'} sort keys %$deps;
+
+
+}
+else {
+   print Dump( \@deps );
+};
+
+#===  FUNCTION  ================================================================
+#         NAME:  find_files
+#      PURPOSE:  locations go in, perl files come in
+#   PARAMETERS:  a list of strings, expected to be file paths
+#      RETURNS:  a list of file paths
+#===============================================================================
+sub find_files {
+   use File::Find::Rule;
+   my @locations = grep{ -e $_ } @_ ; # prune out only existing locations
+
+   my $rule = File::Find::Rule->new;
+   $rule->extras({ follow => 1 }); # follow symlinks
+   $rule->file();                  # look for files
+   $rule->or (                     # keep perl files
+      File::Find::Rule->name( ['*.pl','*.pm','*.cgi']),
+      File::Find::Rule->grep( qr/^#!.*\bperl/, [ sub { 1 } ] ),
+   );
+
+   # and now lets find all the right files in our locations
+   #   map{ $rule->in($_) } @locations ;
+   my @loc;
+   for my $l (@locations) {
+      eval {
+         push @loc, $rule->in($l);
+      } or do {
+         warn $@;
+      };
+   }
+
+   return @loc;
+}
+
+#===  FUNCTION  ================================================================
+#         NAME:  get_hash_of_info_from_filename
+#      PURPOSE:  get a nice hash of the packages, and subs, and includes
+#   PARAMETERS:  $file: filename
+#      RETURNS:  hashref
+#===============================================================================
+sub get_hash_of_info_from_filename {
+   use PPI;
+   use PPI::Dumper;
+   my ($file) = @_;
+   assert_defined($file); # it shouldn't happen, but lets check anyway!
+
+   my $doc = PPI::Document->new($file,readonly=>1);
+
+   #cleanup things so that we dont have so much to parse out
+      # this is what holds the roles
+      #PPI::Token::QuoteLike 
+   foreach (qw{
+      PPI::Token::Whitespace
+      PPI::Token::Structure
+      PPI::Token::Pod
+      PPI::Token::Comment
+      PPI::Token::Symbol
+      PPI::Token::Operator
+      PPI::Token::Number
+      PPI::Statement::Compound
+      PPI::Statement::Variable
+      PPI::Statement::End
+      PPI::Statement::Null
+      PPI::Structure::List
+      PPI::Structure::Break
+      PPI::Structure::Block
+   }) {
+      eval {
+         $doc->prune($_);
+      } or do {
+         # were just looping on types of stuff, not the file
+         next ;
+      };
+   }
+
+   my $raw_data;
+   eval {
+      $raw_data = PPI::Dumper->new($doc)->string;
+   } or do {
+      warn qq{skipping $file due to error while getting the dump from PPI};
+      return undef;
+   };
+
+   my $data = {};
+   my $pack = 'main'; #$file; #just set a default 
+
+   foreach my $slice ( split /PPI::Statement.*/, $raw_data ) {
+      $slice =~ s/\n//g; # no fing clue why /xm is not getting thru?
+      my ($what,$name) = $slice =~ m/'(.+?)'.*?'(.+?)'/xm;
+
+      next unless $name;
+      next unless $what =~ m/(sub|use|has|requires|file|extends|with|package)/; # only process what were looking for
+
+      # package?
+      if ( $what eq 'package' ) { $pack = $name; }
+
+      # manage quote like op
+      if ( $name =~ m/[{}]/ ) {       # Quote like op
+         $name =~ s/.*\{(.*)\}.*/$1/; # trim out the op
+         $name =~ s{\\(n|t)}{}g;      # clean up escaped white space
+         $name = [ grep{length} split /\s+/, $name ]; # split it up, leave out cruft
+      }
+
+      # store off what ever is exciting in this slice
+      push @{ $data->{$pack}->{$what} }, (ref($name) eq 'ARRAY') ? @$name : $name
+         if defined $what && defined $name;
+
+      # keep the file stats, seems kinda relivant
+      my $trimed_file = $file;
+      $trimed_file =~ s/.*(site)/$1/;
+      $data->{$pack}->{file_name} = [ $trimed_file ]
+         unless $data->{$pack}->{file_name} ;
+      $data->{$pack}->{file_size} = [ -s $file ]
+         unless $data->{$pack}->{file_size} ;
+   }
+
+   return $data;
+}
+

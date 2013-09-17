@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use URI::Escape;
+
+if(@ARGV){
+  print uri_escape($_) for @ARGV;
+}
+else{
+  my $str = uri_escape( `xclip -o`);
+  exec qq{echo '$str' | xclip};
+}

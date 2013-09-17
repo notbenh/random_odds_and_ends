@@ -1,0 +1,4 @@
+#!/bin/sh
+#urxvt -bg DarkRed
+xterm -bg darkred -fg white
+

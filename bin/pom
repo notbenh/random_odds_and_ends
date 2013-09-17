@@ -1,0 +1,35 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+my $f = $ENV{POM_FILE} ||  '/home/benh/.pom.pid';
+die 'USEAGE: pom [on|off]' unless @ARGV == 1;
+my $action = shift;
+if($action eq 'off'){
+  die 'pom not running' unless -e $f;
+  system qq{kill `cat $f`};
+  unlink $f;
+  print "pom off\n";
+  exit();
+}
+elsif($action eq 'on'){
+  die 'pom already running or previous unclean exit' if -e $f;
+  my $pid = fork();
+  if($pid) {
+    warn "STARTING $pid";
+    `echo "$pid" > $f`;
+  }
+  elsif($pid == 0){
+    while(1){
+      system qq{ echo 'get to work'  | dzen2 -bg darkred -p 3 -h 100 -y 200};
+      sleep(25*60);
+      system qq{ echo 'take a break' | dzen2 -bg blue -p 1 -h 100 -y 200};
+      sleep(5*60);
+    }
+  }
+  else{
+    die 'USEAGE: pom [on|off]' unless @ARGV == 1;
+  }
+}
+else{
+  die 'USEAGE: pom [on|off]' unless @ARGV == 1;
+}

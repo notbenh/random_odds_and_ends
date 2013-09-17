@@ -1,0 +1,5 @@
+#!/bin/bash
+
+##/usr/bin/chromium-browser --enable-plugins --enable-extensions --enable-greasemonkey --enable-user-scripts --purge-memory-bytton --enable-extension-timeline-api
+#/usr/bin/chromium-browser --enable-plugins --purge-memory-button --enable-apps
+/usr/bin/env chromium -–enable-vertical-tabs --memory-model=medium --enable-plugins --purge-memory-button --disk-cache-dir=/tmp/cache

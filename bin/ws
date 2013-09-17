@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+$_ = (scalar(@ARGV)) ? join ' ', @ARGV : `xclip -o`;
+
+s/^\s*//g;
+s/\s+/ /g;
+
+print "$_\n";

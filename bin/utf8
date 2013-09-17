@@ -1,0 +1,2 @@
+#!/usr/bin/perl
+print join ' ',map{utf8::encode($_);$_} @ARGV;

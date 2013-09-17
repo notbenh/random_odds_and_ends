@@ -1,0 +1,37 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+
+die qx{perldoc $0} if @ARGV == 0 || $ARGV[0] =~ m/^-+h/;
+
+my $found = qx{cat @ARGV | dmenu -l 30 };
+
+# swap out to just the file if there is a file note
+my ($file) = $found =~ m/<<(.+)>>/;
+$found = $file if $file;
+warn "FOUND: $found\n";
+
+exec qq{ echo "$found" | xclip};
+
+__END__
+
+=head1 USAGE
+
+  $0 [files]
+
+=head1 NOTATION
+
+  Due to dmenu being line focused and I needed multi-line notes there is
+  a <<file>> notation where you can include a file in your note and if a
+  <<file>> is found then only the content of that file is tossed to xclip.
+
+=head1 INTENT
+
+For all input files toss them to dmenu and then what ever is selected
+should go to the pastebin based on xclip.
+
+=head1 TODO
+
+Currently this is stricltly tied to xclip rather then being a bit
+more broad by using pb* on a mac or what ever is the correct clipboard
+manager for windows

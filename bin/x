@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use Util::Log;
+use XML::Simple;
+use File::Slurp;
+use Data::Dumper;
+
+
+for ((scalar @ARGV) ? @ARGV : <STDIN> ) {
+   printf qq{[%s]\n}, $_;
+   #print Dumper( XMLin( (-r $_) ? read_file( $_ ) : $_ ) ) ;
+   print Dumper( XMLin( (-r $_) ? join '', read_file( $_ ) : $_ ) ) ;
+}

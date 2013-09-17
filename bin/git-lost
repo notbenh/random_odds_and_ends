@@ -1,0 +1,1 @@
+git co `git log --pretty=format:%h | sort -R | head -n1`

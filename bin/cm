@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+use List::Bisect;
 
 =head1 USEAGE
 
@@ -8,13 +9,20 @@ cm My/Module.pm My::Module::Helper ...
 
 =cut
 
+my @module;
+my @flag;
+for (@ARGV) { 
+   if (m/^-/) {
+      push @flag, @_;
+   } else {
+      push @module, @_;
+   }
+}
+
+
 
 $|++;
-system( qw{/usr/bin/env
-           cpanm
-           --skip-installed
-           --sudo
-          }, 
-        map { s/\.pm$//; s/\//::/g; $_; } @ARGV  # take paths (My/Module.pm) or modules (My::Module), convert to module format
+system( qw{/usr/bin/env cpanm --skip-installed --sudo}
+      , map { s/\.pm$//; s/\//::/g; $_; } @ARGV  # take paths (My/Module.pm) or modules (My::Module), convert to module format
       );
 

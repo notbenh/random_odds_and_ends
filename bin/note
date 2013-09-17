@@ -1,0 +1,8 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use Scalar::Util qw{looks_like_number};
+my $minutes = (looks_like_number($ARGV[0]) ? shift @ARGV : 1 ) * 60;
+my $msg = join ' ', @ARGV;
+system qq{ echo 'noted' | dzen2 -bg blue -p 1 -h 100 -y 200 && sleep $minutes && echo '$msg' | dzen2 -bg darkred -p 3 -h 100 -y 200};
+
