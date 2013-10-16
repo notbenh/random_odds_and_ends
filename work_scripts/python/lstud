@@ -1,0 +1,12 @@
+#!/usr/bin/env perl
+system($_) 
+  for 'xclip -o > student.py',
+      'chmod 755 student.py'
+      ;
+
+if( `grep 'The Works of Alexander Dumas' student.py` ){
+  # lesson 16
+  system('diffuse student.py l16_prerefactor_example.py')
+}
+
+system('python3 student.py')

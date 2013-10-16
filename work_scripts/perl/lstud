@@ -1,0 +1,34 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use experimental qw{switch smartmatch };
+use POSIX qw{ceil floor};
+$|++; # stream
+
+print qx{ xclip -o > /tmp/student.pl; chmod 755 /tmp/student.pl; echo 'updated'};
+sub NOTE($){ 
+  my $wid = 40;
+  my $str = @_ && length $_[0] ? sprintf qq{ [ %s ] }, shift : '';
+  my $pre = ceil ($wid-length $str)/2;
+  my $pst = floor ($wid-length $str)/2;
+  printf qq{%s%s%s\n}
+       , '-'x$pre
+       , $str
+       , '-'x$pst
+}
+sub RUN { 
+  NOTE( @_ ? shift : '' );
+  my $cmd = join ' ', qw{perl -I/tmp /tmp/student.pl}, @_;
+  #die $cmd;
+  #print qx{$cmd} or die $!;
+  exec $cmd;
+}
+
+for( $ARGV[0] ){
+  when (undef){ RUN }
+  when (/od/){ 
+    RUN 'without -c' => qw{/software/Perl2/regmatch.png | head -n 5};
+    RUN 'with -c' => qw{-c /software/Perl2/regmatch.png | head -n 5};
+  }
+  default { RUN 'default', @ARGV }
+}
