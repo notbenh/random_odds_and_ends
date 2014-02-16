@@ -1,0 +1,41 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use File::Copy;
+use Data::Dumper; sub D(@){ warn Dumper @_ }
+use List::Util qw{max};
+
+die `perldoc $0` unless @ARGV;
+
+my $max_length = max map{map{length} m/(\d+)/g} @ARGV;
+for my $f (@ARGV){
+  my $rename = $f;
+  $rename =~ s/(\d+)/%0${max_length}d/g;
+  $rename = sprintf $rename, $f =~ m/(\d+)/g;
+  move($f,$rename) or warn  "ERROR: $f was not renamed to $rename: $!";
+}
+
+__END__
+=head1 SYNOPSIS
+
+Rename a given list of files to be zero padded. The code will convert any series of numbers found in the file name to the longest length found.
+
+=head1 USEAGE
+
+  $0 [options] file(s)
+
+=head1 EXAMPLE
+
+  > touch 1 2 3 10 11 12 999
+  > zeropad *
+  > ls
+  001  002  003  010  011  012  999
+
+  > touch foo_1_test foo_2_test foo_999_test
+  > zeropad foo_*_test
+  > ls
+  foo_001_test  foo_002_test  foo_999_test
+
+  > touch 1-999 2-999 3-999 1-1000
+  > zeropad 
+
