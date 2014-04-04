@@ -1,0 +1,2 @@
+#!/bin/sh
+xclip $1 && lstud &&v
