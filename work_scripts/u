@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+sudo -u $1 PS1='[S:$USER:\w] ' HISTFILE=`mktemp --tmpdir=/tmp XXXXXX.hist` bash
