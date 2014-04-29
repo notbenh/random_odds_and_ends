@@ -1,0 +1,23 @@
+As you hand in assignments, if I see that something is not quite right I will let you know and hand the assignment back to you. Though if all is well then I might not have much to say, this is a good thing.
+
+Please take a minute to check your logins: 
+
+  https://students.oreillyschool.com/student/
+
+It might be helpful to check the Student Handbook and Study Guide for information about how the courses at O'Reilly School of Technology work and some advice about learning the OST way. Both of these are available from the Documents link on your Student Start page:
+
+  https://students.oreillyschool.com/student/documents.php
+
+There is also a supplemental ebook for every course. The lessons do not strictly match this book, though it is offered as a way to round out more aspects of this course. This book can be found a week after starting the course in the ebooks section of your student page:
+
+  https://oreillyschool.com/student/books.php
+
+As you move thru the lessons, it is quite likely that there will be a concept that you find does not quite make sense. We have a questions section specific for OST students where you can interact with each other as well as instructors. This can be found in the OverFlow tab in CodeRunner.
+
+If you have specific questions about the code you are working on, or if you find a concept frustrating, please send me email directly via the message tab at the top of CodeRunner, or leave them in the comments section of each assignment.  
+
+Here at OST we know that learning is not an easy process but we never want it to be a negative experience. I am here to help you learn, please let me know how I can help you in this class. Best of luck!
+
+I am looking forward to working with you.
+
+-Ben

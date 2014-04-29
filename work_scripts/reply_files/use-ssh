@@ -1,0 +1,1 @@
+It might be simpler to ssh in to your account and use a text editor like vim from your student account. An alternate way is to develop on your machine and then ftp or scp everything up to your account and then hand it in. Instructions can be found here: https://overflow.oreillyschool.com/index.php/368/interactive-terminal-ssession-timing-out?show=374#a374

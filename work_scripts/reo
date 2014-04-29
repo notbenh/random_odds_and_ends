@@ -1,0 +1,2 @@
+#!/bin/sh
+ls -1 ./reply_files | /usr/bin/env yeganesh -p OST -f -- -l 10 | perl -nle 'exec qq{xclip -i ./reply_files/$_}'
