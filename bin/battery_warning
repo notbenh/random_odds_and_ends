@@ -1,0 +1,10 @@
+#!/bin/zsh
+WARNING_LEVEL=15
+URGENT_LEVEL=5
+BATTERY_LEVEL=`cat /sys/class/power_supply/BAT0/capacity`
+
+if [[ $BATTERY_LEVEL -lt $URGENT_LEVEL ]]; then
+  echo '!!URGENT!! Battery low !!URGENT!!' | dzen2 -fg black -bg red -h 100 -y 200 -p -e 'button1=exit'
+elif [[ $BATTERY_LEVEL -lt $WARNING_LEVEL ]]; then
+  echo 'Battery low' | dzen2 -fg black -bg gold -h 100 -y 200 -p -e 'button1=exit' 
+fi
